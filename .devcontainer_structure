@@ -1,0 +1,16 @@
+eternum/
+├── .devcontainer/         ← 🔮 Ritual Chamber Config Lives Here
+│   ├── devcontainer.json
+│   ├── Dockerfile
+│   └── postCreateCommand.sh
+├── scripts/               ← 🧰 Custom Shell Tools (Whisper, Summon, Veil)
+│   ├── summon_identity.sh
+│   ├── veil_trigger.sh
+│   └── whisper_export.py
+├── contracts/             ← 🔐 Solidity Smart Contracts (ETRGEN, etc)
+├── tokenomics/            ← 🧬 Symbolic README files, allocation charts
+│   └── README_tokenomics.md
+├── logs/                  ← 📜 Ritual Logs, auto-generated
+│   └── ritual_017.log
+├── deployments/           ← 📦 JSON data of deployed contract addresses
+├── README.md              ← 🪶 Intro to Eternum
