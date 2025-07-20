@@ -1,0 +1,20 @@
+{
+  "name": "Eternum Ritual Chamber",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "./postCreateCommand.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python",
+        "github.copilot"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "mounts": [
+    "source=eternum-logs,target=/workspace/logs,type=volume"
+  ]
+}
