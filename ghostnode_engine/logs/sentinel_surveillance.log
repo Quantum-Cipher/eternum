@@ -1,0 +1,27 @@
+📡 SENTINEL WATCHER — 2025-07-27 17:00:01
+🧠 Hostname: Mac.lan
+🕸️ IP: 
+🔋 Battery: 26%
+🌐 Network SSID: 
+💽 Disk Usage: 4%
+⚙️ Top Processes:
+{"timestamp":"2025-07-27T17:00:01","ip":"","disk":"4%"}
+---
+📡 SENTINEL WATCHER — 2025-07-27 17:00:27
+🧠 Hostname: Mac.lan
+🕸️ IP: 192.168.1.71
+🔋 Battery: 26%
+🌐 Network SSID: You are not associated with an AirPort network.
+💽 Disk Usage: 4%
+⚙️ Top Processes:
+{"timestamp":"2025-07-27T17:00:27","ip":"192.168.1.71","disk":"4%"}
+---
+📡 SENTINEL WATCHER — 2025-07-27 17:03:00
+🧠 Hostname: Mac.lan
+🕸️ IP: 
+🔋 Battery: 25%
+🌐 Network SSID: 
+💽 Disk Usage: 4%
+⚙️ Top Processes:
+{"timestamp":"2025-07-27T17:03:00","ip":"","disk":"4%"}
+---
