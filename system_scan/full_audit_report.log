@@ -1,0 +1,1054 @@
+🧠 ETERNUM SYSTEM AUDIT — Tue Jul 29 01:56:02 PDT 2025
+-------------------------------------
+🟡 ACTIVE PROCESSES:
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+root               140  15.0  0.1 426994432  17696   ??  Ss   Sun08AM   1:13.41 /usr/libexec/opendirectoryd
+_windowserver      170  12.6  0.9 415825072 153024   ??  Ss   Sun08AM 106:40.63 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+eternum           1966   4.3  3.7 418315904 619440   ??  S    Sun08AM  34:56.47 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT
+eternum           1201   1.8  0.1 427019760   9040   ??  S    Sun08AM   1:08.24 /System/Library/CoreServices/talagentd
+eternum           1639   1.1  1.3 414831968 213584   ??  S    Sun08AM   1:27.06 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+eternum           4683   0.6  0.6 412949280  96656   ??  S    Sun05PM   1:51.52 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+root               101   0.5  0.2 427169520  37568   ??  Ss   Sun08AM   2:52.60 /usr/libexec/logd
+root               185   0.4  0.0 426949168   1072   ??  Ss   Sun08AM   0:00.34 /usr/libexec/logd_helper
+eternum           1202   0.3  0.2 412370976  30544   ??  S    Sun08AM   1:54.81 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+eternum           9181   0.2  2.0 478651072 341888   ??  S    10:51PM   5:09.35 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+eternum           1412   0.2  0.1 411735648  17200   ??  S    Sun08AM   0:35.68 /System/Library/PrivateFrameworks/TextInputUIMacHelper.framework/Versions/A/XPCServices/CursorUIViewService.xpc/Contents/MacOS/CursorUIViewService
+eternum           1296   0.1  0.1 427007920  18832   ??  S    Sun08AM   0:25.83 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent
+eternum           1635   0.1  0.4 412694096  59472   ??  S    Sun08AM   0:59.67 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+_driverkit         327   0.1  0.2 426922560  41600   ??  Ss   Sun08AM  11:18.87 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN com.apple.bcmwlan 0x100000c89 com.apple.DriverKit-AppleBCMWLAN
+eternum           2068   0.1  0.2 427035536  41664   ??  S    Sun08AM   1:46.88 /usr/libexec/duetexpertd
+root                 1   0.1  0.1 426856688  21360   ??  Ss   Sun08AM   4:03.62 /sbin/launchd
+_mdnsresponder     222   0.1  0.1 427077536  17616   ??  Ss   Sun08AM   1:03.63 /usr/sbin/mDNSResponder
+root               166   0.1  0.0 426984560   6048   ??  Ss   Sun08AM   1:25.35 /usr/libexec/corebrightnessd --launchd
+eternum           9189   0.1  0.5 444433008  86064   ??  S    10:51PM   0:27.99 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --shared-files --metrics-shmem-handle=1752395122,r,4828568072492728318,13328372354940212173,524288 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=27
+eternum           5920   0.1  0.7 432342960 111024   ??  Ss   Sun05PM   8:14.18 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU
+eternum           1647   0.1  0.1 412213712  11248   ??  S    Sun08AM   0:27.96 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+eternum          11955   0.1  3.4 1867528400 562848   ??  S     1:47AM   3:17.94 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=345 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=35061040167 --shared-files --metrics-shmem-handle=1752395122,r,1462130534362832601,7514089812765753394,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=154
+root               105   0.1  0.0 426955024   5328   ??  Ss   Sun08AM   1:48.77 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+eternum           1279   0.1  0.1 426985808  14848   ??  S    Sun08AM   2:13.91 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+root               143   0.1  0.1 426987552  12896   ??  Ss   Sun08AM   0:54.64 /System/Library/CoreServices/launchservicesd
+root               164   0.1  0.0 426949104   4288   ??  Ss   Sun08AM   0:32.43 /usr/sbin/notifyd
+root             11459   0.0  0.0 410633184   3840 s000  Ss    1:31AM   0:00.02 login -pf eternum
+eternum          11004   0.0  0.4 499165552  60208   ??  Ss    1:12AM   0:02.79 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum          10953   0.0  0.7 1865500976 120544   ??  S     1:07AM   0:01.95 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=255 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=32639306012 --shared-files --metrics-shmem-handle=1752395122,r,18443727155067147961,16262989267328882608,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=197
+eternum          10858   0.0  0.0 426984672   6192   ??  Ss   12:52AM   0:00.02 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/XPCServices/SpeechSynthesisServerXPC.xpc/Contents/MacOS/SpeechSynthesisServerXPC
+eternum          10856   0.0  0.0 426954000   3248   ??  Ss   12:52AM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum          10855   0.0  0.0 426949904   3248   ??  Ss   12:52AM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum          10854   0.0  0.1 427023632  20752   ??  Ss   12:52AM   0:00.18 /System/Library/Frameworks/QuickLookUI.framework/Versions/A/PlugIns/QLPreviewGenerationExtension.appex/Contents/MacOS/QLPreviewGenerationExtension -AppleLanguages ("en", "en-US")
+eternum          10853   0.0  0.1 426914144  16704   ??  Ss   12:52AM   0:00.18 /System/Library/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+eternum          10852   0.0  0.5 411405280  80128   ??  Ss   12:52AM   0:02.37 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+eternum          10811   0.0  1.0 1865756800 172688   ??  S    12:47AM   0:10.64 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=225 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=31823774185 --shared-files --metrics-shmem-handle=1752395122,r,3754642295492893308,414107721020339191,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=166
+eternum          10802   0.0  0.0 426846112   1328   ??  S    12:46AM   0:00.03 /usr/bin/ssh-agent -l
+eternum           9964   0.0  0.0 426997872   7856   ??  S    12:03AM   0:00.10 /System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf
+eternum           9945   0.0  0.2 427042912  39920   ??  Ss   12:01AM   0:00.36 /System/Library/PrivateFrameworks/LocalAuthenticationUI.framework/Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/MacOS/LocalAuthenticationRemoteService
+eternum           9938   0.0  0.1 426984112  15744   ??  Ss   12:01AM   0:00.10 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9939   0.0  0.0 426954000   3264   ??  Ss   12:01AM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9937   0.0  0.4 427211296  63808   ??  Ss   12:01AM   0:01.55 /System/iOSSupport/System/Library/PrivateFrameworks/PassKitUI.framework/PlugIns/PeerPaymentMessagesExtension.appex/Contents/MacOS/PeerPaymentMessagesExtension -AppleLanguages ("en-US")
+eternum           9936   0.0  0.0 426998176   5184   ??  Ss   12:01AM   0:00.26 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+eternum           9935   0.0  0.1 426997632  20848   ??  Ss   12:01AM   0:00.28 /System/iOSSupport/System/Library/PrivateFrameworks/IMTranscoding.framework/XPCServices/IMTranscoderAgent.xpc/Contents/MacOS/IMTranscoderAgent
+eternum           9932   0.0  0.2 427004240  25392   ??  S    12:01AM   0:00.84 /usr/libexec/remindd
+eternum           9849   0.0  0.9 1865554304 142704   ??  S    11:52PM   0:01.72 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=139 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=29537695091 --shared-files --metrics-shmem-handle=1752395122,r,2985737192057348711,11098133994930983515,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=169
+eternum           9848   0.0  0.6 1865530304  96352   ??  S    11:52PM   0:00.33 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=138 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=29537542560 --shared-files --metrics-shmem-handle=1752395122,r,12559392019813408110,9436473031372183775,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=158
+eternum           9839   0.0  1.5 1867279232 253072   ??  S    11:52PM   0:27.74 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --extension-process --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=136 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=29536736581 --shared-files --metrics-shmem-handle=1752395122,r,13355391794040472934,11828257358289150948,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=119
+eternum           9838   0.0  1.8 1865787216 296272   ??  S    11:52PM   8:38.31 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=134 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=29536718066 --shared-files --metrics-shmem-handle=1752395122,r,630467337811023611,8781033630708332658,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=87
+eternum           9752   0.0  0.0 426902560   5968   ??  Ss   11:42PM   0:00.17 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           9749   0.0  0.0 426957808   3680   ??  Ss   11:42PM   0:00.49 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9750   0.0  0.0 426961904   3680   ??  Ss   11:42PM   0:00.47 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9648   0.0  0.0 410328320   2432   ??  Ss   11:34PM   0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           9647   0.0  0.2 426984144  27200   ??  Ss   11:34PM   0:00.90 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9637   0.0  0.2 427188448  41648   ??  Ss   11:33PM   0:00.73 /System/Library/Frameworks/AuthenticationServices.framework/Versions/A/XPCServices/com.apple.AuthenticationServices.Helper.xpc/Contents/MacOS/com.apple.AuthenticationServices.Helper
+eternum           9633   0.0  0.4 444282816  58736   ??  S    11:33PM   0:00.83 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Plugin).app/Contents/MacOS/Google Chrome Helper (Plugin) --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=en-US --service-sandbox-type=none --message-loop-type-ui --shared-files --metrics-shmem-handle=1752395122,r,12755787221329484713,4813090405370227099,524288 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000
+eternum           9632   0.0  0.3 444495408  50992   ??  S    11:33PM   0:01.62 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=audio --message-loop-type-ui --shared-files --metrics-shmem-handle=1752395122,r,13583931218522351275,14939260425061557550,524288 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=159
+eternum           9446   0.0  0.0 426957808   3648   ??  Ss   11:07PM   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9436   0.0  0.3 499226720  47392   ??  Ss   11:07PM   0:00.23 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum           9435   0.0  0.3 499251328  54256   ??  Ss   11:07PM   0:00.28 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum           9432   0.0  0.1 431374640   9344   ??  Ss   11:07PM   0:00.14 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+eternum           9431   0.0  0.0 410349824   2432   ??  Ss   11:07PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           9429   0.0  0.1 431518480  20240   ??  Ss   11:07PM   0:01.05 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU
+eternum           9428   0.0  0.9 417390192 145856   ??  S    11:07PM   0:19.74 /System/Applications/Mail.app/Contents/MacOS/Mail
+eternum           9387   0.0  0.2 411556704  26160   ??  S    11:01PM   0:00.54 /System/Library/CoreServices/Family.app/Contents/MacOS/Family
+eternum           9321   0.0  0.1 426983104   8592   ??  Ss   10:56PM   0:00.07 /System/Library/Frameworks/GroupActivities.framework/Versions/A/XPCServices/GroupSessionService.xpc/Contents/MacOS/GroupSessionService
+eternum           9318   0.0  0.0 426954000   3264   ??  Ss   10:56PM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9319   0.0  0.0 426954000   3264   ??  Ss   10:56PM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9317   0.0  0.1 411835104  19856   ??  Ss   10:56PM   0:00.43 /System/Library/Frameworks/LinkPresentation.framework/Versions/A/XPCServices/com.apple.LinkPresentation.LinkSnapshotGeneratorService.xpc/Contents/MacOS/com.apple.LinkPresentation.LinkSnapshotGeneratorService
+eternum           9302   0.0  0.0 426984400   7104   ??  Ss   10:56PM   0:00.04 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+eternum           9301   0.0  0.7 412933040 110480   ??  S    10:56PM   0:17.69 /System/Applications/Notes.app/Contents/MacOS/Notes
+eternum           9215   0.0  0.1 411354272  17616   ??  Ss   10:51PM   0:00.06 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTEncoderXPCService.xpc/Contents/MacOS/VTEncoderXPCService
+eternum           9206   0.0  0.0 410710368   5120   ??  Ss   10:51PM   0:00.06 /System/Library/PrivateFrameworks/SiriTTSService.framework/Versions/A/XPCServices/com.apple.SiriTTSService.TrialProxy.xpc/Contents/MacOS/com.apple.SiriTTSService.TrialProxy
+eternum           9198   0.0  0.2 426984112  33664   ??  Ss   10:51PM   0:04.20 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           9190   0.0  0.3 444215232  51312   ??  S    10:51PM   0:00.73 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --shared-files --metrics-shmem-handle=1752395122,r,11449888363145611151,6024962281172938137,524288 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=52
+eternum           9188   0.0  0.8 444667424 138752   ??  S    10:51PM   9:21.50 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=1752395122,r,3746036531767031210,17113389960097677479,262144 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=27
+eternum           9184   0.0  0.0 426897600   5296   ??  Ss   10:51PM   0:00.08 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           9183   0.0  0.0 443741488   2480   ??  S    10:51PM   0:00.02 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/eternum/Library/Application Support/Google/Chrome/Crashpad --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=138.0.7204.169 --handshake-fd=5
+eternum           8971   0.0  0.1 427002784  13680   ??  S    10:40PM   0:00.42 /System/Library/CoreServices/IOUIAgent.app/Contents/MacOS/IOUIAgent
+eternum           8956   0.0  0.0 427179376   6240   ??  S    10:38PM   0:00.11 /System/Cryptexes/App/usr/libexec/webpushd --machServiceName com.apple.webkit.webpushd.service
+eternum           8948   0.0 10.1 502161312 1691200   ??  Rs   10:37PM   7:17.96 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum           8874   0.0  0.5 427244208  76480   ??  Ss   10:32PM   0:08.36 /System/Library/ExtensionKit/Extensions/ComposeReviewExtension.appex/Contents/MacOS/ComposeReviewExtension
+eternum           8873   0.0  0.0 426950672   4800   ??  Ss   10:32PM   0:00.05 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           8541   0.0  0.0 426983856   5952   ??  Ss   10:30PM   0:00.10 /System/Library/Frameworks/CoreGraphics.framework/Versions/A/XPCServices/CGPDFService.xpc/Contents/MacOS/CGPDFService
+eternum           8491   0.0  0.0 410622208   2432   ??  Ss   10:28PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           8489   0.0  0.1 431378032  14160   ??  Ss   10:28PM   0:00.20 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+eternum           8486   0.0  0.3 427230240  45392   ??  S    10:28PM   0:02.27 com.apple.Passwords.MenuBarExtra
+eternum           8484   0.0  0.2 427031840  35440   ??  Ss   10:28PM   0:00.73 /System/Library/PrivateFrameworks/LocalAuthenticationUI.framework/Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/MacOS/LocalAuthenticationRemoteService
+eternum           8483   0.0  0.6 417078752  95888   ??  S    10:28PM   0:04.42 /System/Applications/Passwords.app/Contents/MacOS/Passwords
+eternum           8473   0.0  0.0 426953712   3632   ??  Ss   10:26PM   0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           8474   0.0  0.0 426954000   3264   ??  Ss   10:26PM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           8472   0.0  0.4 500361808  69792   ??  Ss   10:26PM   1:41.04 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum           8471   0.0  0.1 431470688  16048   ??  Ss   10:26PM   0:02.29 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+eternum           8469   0.0  0.1 431923936  21712   ??  Ss   10:26PM   0:10.77 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU
+eternum           8468   0.0  0.0 410347776   2432   ??  Ss   10:26PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           8467   0.0  0.3 427194416  57904   ??  Ss   10:26PM   0:01.21 /System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/MacOS/AKAuthorizationRemoteViewService
+eternum           8464   0.0  0.9 417599504 151712   ??  S    10:26PM   0:27.99 /Applications/Copilot.app/Contents/MacOS/Copilot
+eternum           8064   0.0  0.0 411199408   4256   ??  Ss    9:35PM   0:00.10 /System/Library/PrivateFrameworks/MediaAnalysisAccess.framework/Versions/A/XPCServices/mediaanalysisd-access.xpc/Contents/MacOS/mediaanalysisd-access
+eternum           8056   0.0  0.0 410345728   2432   ??  Ss    9:34PM   0:00.04 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           7973   0.0  0.0 426899232   6512   ??  Ss    9:33PM   0:04.62 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           7970   0.0  0.0 426961904   3664   ??  Ss    9:33PM   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           7886   0.0  0.0 410327296   2432   ??  Ss    9:31PM   0:00.10 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           7879   0.0  0.0 427042416   5984   ??  Ss    9:30PM   1:08.92 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+eternum           7829   0.0  0.0 426984400   7264   ??  Ss    9:27PM   0:00.35 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+eternum           7827   0.0  0.1 426997056  12176   ??  Ss    9:27PM   0:06.63 /System/Library/PrivateFrameworks/IntelligencePlatformCompute.framework/Versions/A/XPCServices/IntelligencePlatformComputeService.xpc/Contents/MacOS/IntelligencePlatformComputeService
+eternum           7817   0.0  0.0 410336512   2432   ??  Ss    9:25PM   0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root              7816   0.0  0.0 426957792   3648   ??  Ss    9:25PM   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+_audiomxd         7804   0.0  0.0 426949472   2288   ??  S     9:25PM   0:00.07 /usr/sbin/cfprefsd agent
+_audiomxd         7803   0.0  0.0 426949408   1952   ??  S     9:25PM   0:00.47 /usr/sbin/distnoted agent
+eternum           7796   0.0  0.0 426949600   2736   ??  S     9:24PM   0:00.07 /usr/libexec/mlruntimed
+eternum           7746   0.0  0.0 410947648   7312   ??  Ss    9:24PM   0:00.33 /System/Library/PrivateFrameworks/FileProviderDaemon.framework/XPCServices/FPCKService.xpc/Contents/MacOS/FPCKService
+eternum           7649   0.0  0.0 426990400   6704   ??  S     9:17PM   0:00.08 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPArtworkAgent --launchd
+eternum           7646   0.0  0.0 426984624   7280   ??  S     9:17PM   0:00.08 /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService
+eternum           7645   0.0  0.0 426984784   4800   ??  S     9:17PM   0:00.06 /System/Library/PrivateFrameworks/PodcastServices.framework/XPCServices/PodcastContentService.xpc/Contents/MacOS/PodcastContentService
+eternum           7643   0.0  0.1 427028048  23312   ??  S     9:17PM   0:01.15 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent --launchd
+eternum           7642   0.0  0.1 427011056   9376   ??  Ss    9:17PM   0:00.09 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+root              7622   0.0  0.0 426984208   4512   ??  Ss    9:17PM   0:00.05 /usr/libexec/sysdiagnosed
+eternum           7612   0.0  0.0 410754592   4624   ??  Ss    9:16PM   0:00.11 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedSettingsSubscriber.xpc/Contents/MacOS/ManagedSettingsSubscriber
+eternum           7611   0.0  0.0 410790080   6352   ??  Ss    9:16PM   0:00.12 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ASConfigurationSubscriber.xpc/Contents/MacOS/ASConfigurationSubscriber
+eternum           7608   0.0  0.0 410752464   4240   ??  Ss    9:16PM   0:00.10 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagementTestSubscriber.xpc/Contents/MacOS/ManagementTestSubscriber
+eternum           7607   0.0  0.0 410802704   7328   ??  Ss    9:16PM   0:00.15 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/AccountSubscriber.xpc/Contents/MacOS/AccountSubscriber
+eternum           7606   0.0  0.0 410753520   4208   ??  Ss    9:16PM   0:00.11 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/PasscodeSettingsSubscriber.xpc/Contents/MacOS/PasscodeSettingsSubscriber
+eternum           7605   0.0  0.0 410753488   4176   ??  Ss    9:16PM   0:00.11 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/LegacyProfilesSubscriber.xpc/Contents/MacOS/LegacyProfilesSubscriber
+eternum           7601   0.0  0.0 410754016   6240   ??  Ss    9:16PM   0:00.15 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ScreenSharingSubscriber.xpc/Contents/MacOS/ScreenSharingSubscriber
+eternum           7600   0.0  0.0 410753472   4224   ??  Ss    9:16PM   0:00.08 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/InteractiveLegacyProfilesSubscriber.xpc/Contents/MacOS/InteractiveLegacyProfilesSubscriber
+eternum           7599   0.0  0.0 410753552   4288   ??  Ss    9:16PM   0:00.11 /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/SecuritySubscriber.xpc/Contents/MacOS/SecuritySubscriber
+eternum           7598   0.0  0.0 410921168   6032   ??  Ss    9:16PM   0:00.12 /System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/XPCServices/SafariConfigurationSubscriber.xpc/Contents/MacOS/SafariConfigurationSubscriber
+eternum           7597   0.0  0.0 426985664   6720   ??  S     9:16PM   0:00.18 /System/Library/PrivateFrameworks/RemoteManagement.framework/RemoteManagementAgent
+eternum           7596   0.0  0.2 427143120  37936   ??  S     9:16PM   0:00.64 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+root              7594   0.0  0.0 426949488   3280   ??  Ss    9:15PM   0:00.03 /usr/libexec/microstackshot
+eternum           7593   0.0  0.0 426984160   4768   ??  S     9:15PM   0:00.40 /usr/libexec/proactiveeventtrackerd
+_neuralengine     7591   0.0  0.0 426949472   1760   ??  S     9:15PM   0:00.06 /usr/sbin/cfprefsd agent
+_neuralengine     7590   0.0  0.0 426949408   1936   ??  S     9:15PM   0:00.49 /usr/sbin/distnoted agent
+_neuralengine     7588   0.0  0.0 426946208   2208   ??  Ss    9:15PM   0:00.02 /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/Contents/MacOS/ANEStorageMaintainer
+root              7587   0.0  0.0 426946208   2672   ??  Ss    9:15PM   0:00.07 /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/Contents/MacOS/ANEStorageMaintainer
+_accessoryupdater  7584   0.0  0.0 426982336   4304   ??  Ss    9:15PM   0:00.10 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/EAUpdaterService.xpc/Contents/MacOS/EAUpdaterService
+root              7583   0.0  0.0 426987856   4016   ??  Ss    9:15PM   0:00.13 /usr/libexec/dprivacyd
+_installcoordinationd  7582   0.0  0.0 426949472   1680   ??  S     9:15PM   0:00.07 /usr/sbin/cfprefsd agent
+eternum           7569   0.0  0.0 426897264   5168   ??  Ss    9:15PM   0:00.22 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           7566   0.0  0.0 426949536   4176   ??  Ss    9:14PM   0:00.07 /System/Library/PrivateFrameworks/TrialServer.framework/Versions/A/XPCServices/TrialArchivingService.xpc/Contents/MacOS/TrialArchivingService
+_modelmanagerd    7565   0.0  0.0 426949472   1648   ??  S     9:14PM   0:00.08 /usr/sbin/cfprefsd agent
+eternum           7561   0.0  0.1 426990064  14528   ??  S     9:14PM   0:01.33 /System/Library/PrivateFrameworks/MapsSync.framework/mapssyncd
+_rmd              7560   0.0  0.0 426949472   1696   ??  S     9:14PM   0:00.06 /usr/sbin/cfprefsd agent
+_securityagent    7559   0.0  0.0 426949472   1680   ??  S     9:14PM   0:00.06 /usr/sbin/cfprefsd agent
+_appinstalld      7556   0.0  0.0 426949472   1680   ??  S     9:14PM   0:00.07 /usr/sbin/cfprefsd agent
+_applepay         7555   0.0  0.0 426949472   1712   ??  S     9:14PM   0:00.07 /usr/sbin/cfprefsd agent
+eternum           7548   0.0  0.0 410919968   5824   ??  Ss    9:14PM   0:00.16 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+_nsurlsessiond    7546   0.0  0.0 426949472   1648   ??  S     9:14PM   0:00.07 /usr/sbin/cfprefsd agent
+eternum           7544   0.0  0.1 426989712   9952   ??  S     9:14PM   0:00.24 /System/Library/PrivateFrameworks/PrivateCloudCompute.framework/privatecloudcomputed.app/Contents/MacOS/privatecloudcomputed
+eternum           7541   0.0  0.0 426988512   4624   ??  S     9:14PM   0:00.26 /usr/libexec/dprivacyd
+_softwareupdate   7536   0.0  0.0 426949472   1632   ??  S     9:14PM   0:00.07 /usr/sbin/cfprefsd agent
+root              7526   0.0  0.0 426945008   2944   ??  Ss    9:14PM   0:00.03 /usr/libexec/griddatad
+eternum           7506   0.0  0.0 426984096   6768   ??  Ss    9:07PM   0:00.04 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/Versions/A/XPCServices/com.apple.siri.embeddedspeech.xpc/Contents/MacOS/com.apple.siri.embeddedspeech
+eternum           7500   0.0  0.1 426982992  10368   ??  S     9:06PM   0:00.13 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent
+eternum           7485   0.0  0.0 426961696   7232   ??  Ss    9:06PM   0:00.27 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           7470   0.0  0.0 410354944   2384   ??  Ss    8:50PM   0:00.04 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           7390   0.0  0.3 412328112  47520   ??  S     8:43PM   0:00.96 /System/Library/CoreServices/Installer.app/Contents/MacOS/Installer
+root              6975   0.0  0.0 426949808   5136   ??  Ss    8:39PM   0:00.44 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+eternum           6915   0.0  0.0 410197456   1792   ??  Ss    8:36PM   0:00.01 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+eternum           6679   0.0  0.2 427201392  39168   ??  Ss    8:16PM   0:00.87 /System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+eternum           6672   0.0  0.0 426982352   8000   ??  S     8:16PM   0:00.06 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+eternum           6658   0.0  0.1 426995792  14304   ??  S     8:16PM   0:00.39 /usr/libexec/mlhostd
+root              6551   0.0  0.1 426987488  10848   ??  S     7:55PM   0:00.69 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+eternum           6543   0.0  0.9 427539328 145696   ??  S     7:43PM   0:17.88 /System/Applications/Messages.app/Contents/MacOS/Messages
+eternum           6540   0.0  0.0 410788896   5936   ??  Ss    7:43PM   0:00.11 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+_driverkit        6531   0.0  0.0 426851584    832   ??  Ss    7:43PM   0:00.03 /System/Library/DriverExtensions/IOUserBluetoothSerialDriver.dext/IOUserBluetoothSerialDriver com.apple.IOUserBluetoothSerialDriver 0x1000039da com.apple.IOUserBluetoothSerialDriver
+root              6524   0.0  0.2 427000064  32912   ??  Ss    7:43PM   2:13.40 /usr/libexec/PerfPowerServices
+_netbios          6522   0.0  0.0 426949888   3232   ??  SNs   7:43PM   0:00.26 /usr/sbin/netbiosd
+_accessoryupdater  6520   0.0  0.0 426982096   3008   ??  S     7:43PM   0:00.07 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+_accessoryupdater  6519   0.0  0.0 426985504   6336   ??  S     7:43PM   0:00.17 /usr/libexec/trustd --agent
+_accessoryupdater  6518   0.0  0.0 426949472   1808   ??  S     7:43PM   0:00.12 /usr/sbin/cfprefsd agent
+_accessoryupdater  6517   0.0  0.0 426984064   4992   ??  S     7:43PM   0:00.09 /usr/libexec/secinitd
+_accessoryupdater  6493   0.0  0.1 426991888  10496   ??  S     7:43PM   0:00.78 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+eternum           6490   0.0  0.1 427053984  22432   ??  S     7:43PM   0:00.90 /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime
+root              6496   0.0  0.1 426999888  25072   ??  Ss    7:43PM   0:24.18 /usr/sbin/bluetoothd
+eternum           6432   0.0  0.3 427042208  52416   ??  Ss   Sun06PM   0:08.37 /System/Applications/News.app/Contents/PlugIns/NewsToday2.appex/Contents/MacOS/NewsToday2
+eternum           6301   0.0  0.0 410611792     16   ??  Ss   Sun05PM   0:00.07 ssh-agent -s
+eternum           6254   0.0  0.0 426953712    384   ??  Ss   Sun05PM   0:00.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           6253   0.0  0.1 427181584  19440   ??  Ss   Sun05PM   0:02.06 /System/Library/Frameworks/AuthenticationServices.framework/Versions/A/XPCServices/com.apple.AuthenticationServices.Helper.xpc/Contents/MacOS/com.apple.AuthenticationServices.Helper
+eternum           6037   0.0  0.1 426957808   9216   ??  Ss   Sun05PM   0:00.19 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           5932   0.0  0.0 426949472     16   ??  Ss   Sun05PM   0:00.02 /System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService
+eternum           5931   0.0  0.0 426903008   6256   ??  Ss   Sun05PM   0:00.97 /System/Library/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+eternum           5930   0.0  0.1 411118544  15664   ??  Ss   Sun05PM   0:01.63 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+eternum           5929   0.0  0.0 410328320     16   ??  Ss   Sun05PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           5928   0.0  0.1 410433008   8480   ??  Ss   Sun05PM   0:00.15 /Applications/Proton Pass for Safari.app/Contents/PlugIns/Safari Extension.appex/Contents/MacOS/Safari Extension -AppleLanguages ("en-US")
+eternum           5922   0.0  0.0 427357120   5888   ??  Ss   Sun05PM   0:00.46 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+eternum           5921   0.0  0.1 426922112  15488   ??  Ss   Sun05PM   0:00.93 /System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBroker.xpc/Contents/MacOS/com.apple.Safari.SandboxBroker
+eternum           5919   0.0  0.3 431707984  53056   ??  Ss   Sun05PM   1:11.53 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+eternum           5917   0.0  0.0 426949856   3040   ??  Ss   Sun05PM   0:00.20 /System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService
+eternum           5916   0.0  0.0 410368256     16   ??  Ss   Sun05PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           5914   0.0  0.8 432283008 136048   ??  S    Sun05PM   2:26.19 /System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/MacOS/Safari
+eternum           4792   0.0  0.2 427219824  32528   ??  Ss   Sun05PM   0:01.10 /System/Library/ExtensionKit/Extensions/TextThumbnailExtension.appex/Contents/MacOS/TextThumbnailExtension
+eternum           3962   0.0  0.0 410187216     16   ??  Ss   Sun04PM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+eternum           3961   0.0  0.0 410205648    528   ??  Ss   Sun04PM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+root              3945   0.0  0.0 427091184    480   ??  S    Sun04PM   0:00.07 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+root              3944   0.0  0.0 426986000   2096   ??  S    Sun04PM   0:00.21 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+eternum           3420   0.0  0.3 427203632  53648   ??  Ss   Sun03PM   0:01.33 /System/Library/CoreServices/ControlCenter.app/Contents/XPCServices/ControlCenterHelper.xpc/Contents/MacOS/ControlCenterHelper
+amypeters         3342   0.0  0.0 426998096   7248   ??  S    Sun03PM   0:00.58 /usr/libexec/secd
+amypeters         3341   0.0  0.0 426945392     16   ??  S    Sun03PM   0:00.02 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/XPCServices/csnameddatad.xpc/Contents/MacOS/csnameddatad
+amypeters         3340   0.0  0.0 426949472    912   ??  S    Sun03PM   0:00.10 /usr/sbin/cfprefsd agent
+amypeters         3339   0.0  0.0 426995296    800   ??  S    Sun03PM   0:00.14 /usr/libexec/lsd
+amypeters         3338   0.0  0.0 426949408   1264   ??  S    Sun03PM   0:01.09 /usr/sbin/distnoted agent
+eternum           3096   0.0  0.1 412098704  18992   ??  Ss   Sun03PM   0:01.99 /System/Library/CoreServices/Dock.app/Contents/XPCServices/DockHelper.xpc/Contents/MacOS/DockHelper
+eternum           3080   0.0  0.1 426990160   9744   ??  S    Sun03PM   0:01.41 /System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged
+eternum           3037   0.0  0.0 410459728     64   ??  Ss   Sun03PM   0:00.14 /private/var/folders/2b/g150t6rn60d48zrr4nsdhtg80000gr/X/E28A19EB-7811-55C5-81AE-5AA2D150047A/d/Wrapper/Coinbase.app/PlugIns/NotificationService.appex/NotificationService -AppleLanguages ("en-US")
+eternum           2992   0.0  0.0 427004144   1152   ??  S    Sun02PM   0:00.23 /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlightService
+eternum           2991   0.0  0.0 410346752     16   ??  Ss   Sun02PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+_spotlight        2972   0.0  0.0 426948896     16   ??  S    Sun02PM   0:00.07 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+_installcoordinationd  2969   0.0  0.0 426949408   1120   ??  S    Sun02PM   0:00.93 /usr/sbin/distnoted agent
+eternum           2968   0.0  0.0 412269696    416   ??  Ss   Sun02PM   0:00.81 /System/Library/PrivateFrameworks/StreamingZip.framework/Versions/A/XPCServices/com.apple.StreamingUnzipService.xpc/Contents/MacOS/com.apple.StreamingUnzipService
+eternum           2967   0.0  0.0 426946352   1968   ??  S    Sun02PM   0:00.21 /usr/libexec/backgroundassets.user
+eternum           2777   0.0  0.1 427183296   9584   ??  S    Sun02PM   0:01.19 /System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/Resources/AccessibilityVisualsAgent.app/Contents/MacOS/AccessibilityVisualsAgent
+eternum           2741   0.0  0.1 431567744  12928   ??  Ss   Sun02PM   0:01.48 /System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/MacOS/nsattributedstringagent
+eternum           2737   0.0  0.0 426957808   1088   ??  Ss   Sun02PM   0:00.07 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           2738   0.0  0.0 426949904   1104   ??  Ss   Sun02PM   0:00.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+root              2720   0.0  0.0 426984448   7920   ??  Ss   Sun02PM   0:00.24 /usr/libexec/wifivelocityd
+eternum           2688   0.0  0.0 426897456    416   ??  Ss   Sun02PM   0:00.05 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           2687   0.0  0.0 426949904    384   ??  Ss   Sun02PM   0:00.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           2686   0.0  0.0 426949904    384   ??  Ss   Sun02PM   0:00.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           2685   0.0  0.1 427222848   9968   ??  Ss   Sun02PM   0:02.43 /System/Library/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+eternum           2684   0.0  0.1 411202576  18112   ??  Ss   Sun02PM   0:03.48 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+eternum           2681   0.0  0.0 431387904   3392   ??  Ss   Sun02PM   0:00.98 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+eternum           2658   0.0  0.0 426953744   1408   ??  Ss   Sun02PM   0:00.08 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           2657   0.0  0.0 426957808   1392   ??  Ss   Sun02PM   0:00.13 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           2639   0.0  0.0 426984688   4336   ??  Ss   Sun02PM   0:00.10 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+eternum           2621   0.0  0.0 426908864   7872   ??  Ss   Sun02PM   0:00.20 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           2620   0.0  0.1 427021776   9936   ??  Ss   Sun02PM   0:00.39 /System/Library/ExtensionKit/Extensions/AudiovisualThumbnailExtension.appex/Contents/MacOS/AudiovisualThumbnailExtension
+eternum           2445   0.0  0.0 426897008    736   ??  Ss   Sun01PM   0:35.33 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           2444   0.0  0.0 410328320     16   ??  Ss   Sun01PM   0:00.04 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           2443   0.0  0.1 427036160  13552   ??  Ss   Sun01PM   0:02.87 /System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper
+eternum           2440   0.0  0.4 413238272  72096   ??  S    Sun01PM   2:24.04 /Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN
+eternum           2439   0.0  0.0 410234320    576   ??  Ss   Sun01PM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+eternum           2368   0.0  0.0 427006384   6144   ??  Ss   Sun01PM   0:00.57 /System/Library/ExtensionKit/Extensions/ImageThumbnailExtension.appex/Contents/MacOS/ImageThumbnailExtension
+eternum           2339   0.0  0.0 426949552   2432   ??  S    Sun01PM   0:00.06 /usr/libexec/feedbackd
+eternum           2337   0.0  0.0 426985632   6864   ??  S    Sun01PM   0:00.27 /System/Library/PrivateFrameworks/GeoAnalytics.framework/geoanalyticsd
+eternum           2288   0.0  0.1 426992944   8656   ??  S    Sun01PM   0:01.48 /usr/libexec/ciphermld
+eternum           2287   0.0  0.0 426984080    416   ??  Ss   Sun01PM   0:00.09 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+eternum           2286   0.0  0.0 426983760   6688   ??  S    Sun01PM   0:01.02 /System/Library/PrivateFrameworks/BusinessChatService.framework/businessservicesd
+eternum           2282   0.0  0.0 426945376    352   ??  Ss   Sun01PM   0:00.01 /System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent
+eternum           2281   0.0  0.0 426983232   1600   ??  S    Sun01PM   0:00.07 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+root              2236   0.0  0.0 426945376    352   ??  Ss   Sun01PM   0:00.01 /System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent
+root              2235   0.0  0.0 426983200   1936   ??  Ss   Sun01PM   0:00.24 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+eternum           2222   0.0  0.0 426949888   1456   ??  S    Sun01PM   0:00.05 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+eternum           2220   0.0  0.0 426949472    272   ??  S    Sun01PM   0:00.07 /usr/libexec/USBAgent
+root              2216   0.0  0.0 426983872   4320   ??  Ss   Sun01PM   0:00.08 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XProtectUpdateService.xpc/Contents/MacOS/XProtectUpdateService
+root              2215   0.0  0.0 426945488   1952   ??  Ss   Sun01PM   0:00.04 /usr/libexec/tzd
+eternum           2212   0.0  0.1 411849856  12720   ??  S    Sun01PM   0:03.62 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+root              2189   0.0  0.0 426957792    384   ??  Ss   Sun01PM   0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           2183   0.0  0.1 427037360  16576   ??  S    Sun01PM   0:03.24 /usr/libexec/studentd
+eternum           2157   0.0  0.0 411146880   2240   ??  Ss   Sun01PM   0:06.15 /System/Library/PrivateFrameworks/StreamingZip.framework/Versions/A/XPCServices/com.apple.StreamingUnzipService.xpc/Contents/MacOS/com.apple.StreamingUnzipService
+root              2151   0.0  0.0 426949888    384   ??  Ss   Sun12PM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+root              2150   0.0  0.0 426949888    384   ??  Ss   Sun12PM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           2114   0.0  0.0 426983760   3264   ??  Ss   Sun11AM   0:00.32 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+eternum           2113   0.0  0.0 426983360   4704   ??  Ss   Sun11AM   0:00.39 /System/Library/PrivateFrameworks/IMTranscoding.framework/XPCServices/IMTranscoderAgent.xpc/Contents/MacOS/IMTranscoderAgent
+eternum           2108   0.0  0.0 410621968   1744   ??  S    Sun11AM   0:00.04 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtect
+root              2106   0.0  0.0 426984272   3984   ??  Ss   Sun10AM   0:01.72 /usr/libexec/ospredictiond
+eternum           2097   0.0  0.0 426986224   1712   ??  S    Sun10AM   0:00.13 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+root              2083   0.0  0.0 426949488   1504   ??  Ss   Sun09AM   0:00.05 /usr/libexec/betaenrollmentd
+eternum           2081   0.0  0.1 426986224  10912   ??  S    Sun09AM   0:00.19 /usr/libexec/betaenrollmentagent
+eternum           2073   0.0  0.0 426950480   1008   ??  Ss   Sun09AM   0:00.25 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+eternum           2070   0.0  0.1 411225040  15936   ??  Ss   Sun08AM   0:06.50 /System/Library/PrivateFrameworks/AppPredictionFoundation.framework/Versions/A/XPCServices/AppPredictionIntentsHelperService.xpc/Contents/MacOS/AppPredictionIntentsHelperService
+_modelmanagerd    2069   0.0  0.0 427090976     16   ??  Ss   Sun08AM   0:11.91 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+eternum           2064   0.0  0.0 426896864   1584   ??  Ss   Sun08AM   0:03.03 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           2063   0.0  0.1 427756384   9120   ??  Ss   Sun08AM   1:57.02 /System/Library/PrivateFrameworks/MediaConversionService.framework/Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/MacOS/com.apple.photos.ImageConversionService
+_modelmanagerd    2042   0.0  0.0 427035552     16   ??  Ss   Sun08AM   0:06.39 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+eternum           2041   0.0  0.0 426949488   1984   ??  S    Sun08AM   0:00.03 /System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/XPCServices/com.apple.tonelibraryd.xpc/Contents/MacOS/com.apple.tonelibraryd
+eternum           2039   0.0  0.0 427002832   6096   ??  S    Sun08AM   0:03.67 /System/Cryptexes/App/usr/libexec/PasswordBreachAgent
+root              2037   0.0  0.0 410621968   1808   ??  Ss   Sun08AM   0:00.06 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtect
+eternum           2034   0.0  0.0 427018224     16   ??  Ss   Sun08AM   0:01.43 /System/Applications/Messages.app/Contents/PlugIns/Messages Assistant Extension.appex/Contents/MacOS/Messages Assistant Extension -AppleLanguages ("en-US")
+eternum           2033   0.0  0.0 427022864   1392   ??  S    Sun08AM   0:04.24 /usr/libexec/textunderstandingd
+root              2024   0.0  0.0 426987472   2656   ??  Ss   Sun08AM   0:21.83 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+eternum           2023   0.0  0.0 426948944   1088   ??  S    Sun08AM   0:00.06 /usr/libexec/metrickitd
+eternum           2018   0.0  0.0 426982960   2368   ??  Ss   Sun08AM   0:00.14 /System/Library/Frameworks/Intents.framework/XPCServices/intents_helper.xpc/Contents/MacOS/intents_helper
+eternum           2006   0.0  0.2 431366448  32592   ??  S    Sun08AM   0:07.36 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/reversetemplated
+eternum           2001   0.0  0.0 410196432    576   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+eternum           1996   0.0  0.0 410252384   3408   ??  Ss   Sun08AM   0:00.06 /System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/XPCServices/CredentialProviderExtensionHelper.xpc/Contents/MacOS/CredentialProviderExtensionHelper
+eternum           1995   0.0  0.2 412414528  38128   ??  S    Sun08AM   0:02.36 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha
+eternum           1993   0.0  0.1 431474256  17312   ??  S    Sun08AM   0:01.31 /System/Cryptexes/App/usr/libexec/AuthenticationServicesAgent
+eternum           1989   0.0  0.1 427024320  11904   ??  S    Sun08AM   0:19.90 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+eternum           1988   0.0  0.0 426984832   8240   ??  S    Sun08AM   0:03.07 /System/Library/PrivateFrameworks/Synapse.framework/Support/contentlinkingd
+root              1986   0.0  0.0 427000800   6592   ??  Ss   Sun08AM   0:01.54 /System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSODaemon
+eternum           1985   0.0  0.1 412472016  10176   ??  S    Sun08AM   0:01.17 /System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent
+eternum           1983   0.0  0.0 426949664   1712   ??  S    Sun08AM   0:00.26 /usr/libexec/keychainsharingmessagingd
+eternum           1978   0.0  0.0 426990832   4896   ??  S    Sun08AM   0:00.58 /System/Library/PrivateFrameworks/WebPrivacy.framework/webprivacyd
+eternum           1977   0.0  0.0 426983328   1760   ??  S    Sun08AM   0:00.13 /System/Cryptexes/App/usr/libexec/SafariNotificationAgent
+eternum           1975   0.0  0.1 427083840  10592   ??  S    Sun08AM   0:01.97 /System/Cryptexes/App/usr/libexec/com.apple.Safari.History
+eternum           1972   0.0  0.1 427189744  17200   ??  S    Sun08AM   0:03.19 /System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter
+eternum           1970   0.0  0.0 427013136   6608   ??  S    Sun08AM   0:00.27 /System/Cryptexes/App/usr/libexec/SafariLaunchAgent
+eternum           1969   0.0  0.1 426983856   8720   ??  S    Sun08AM   0:00.74 /System/Library/PrivateFrameworks/DeviceCheckInternal.framework/devicecheckd
+eternum           1968   0.0  0.2 412467552  25936   ??  S    Sun08AM   0:12.99 Contents/Resources/ChatGPTHelper
+eternum           1960   0.0  0.1 427013328  10800   ??  S    Sun08AM   0:07.07 /System/Library/Frameworks/Translation.framework/translationd
+eternum           1959   0.0  0.0 426989184   4176   ??  S    Sun08AM   0:05.15 /System/Library/CoreServices/appplaceholdersyncd
+eternum           1951   0.0  0.1 426988560  15040   ??  S    Sun08AM   3:07.11 /System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl
+eternum           1950   0.0  0.0 410660016   2640   ??  S    Sun08AM   0:09.24 /usr/libexec/SidecarRelay
+_fpsd             1945   0.0  0.1 426998368  21824   ??  Ss   Sun08AM   0:02.22 /System/Library/PrivateFrameworks/CoreLSKD.framework/Versions/A/lskdd
+root              1943   0.0  0.0 426999536   6176   ??  Ss   Sun08AM   0:00.11 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/XPCServices/com.apple.AppStoreDaemon.StorePrivilegedTaskService.xpc/Contents/MacOS/com.apple.AppStoreDaemon.StorePrivilegedTaskService
+eternum           1937   0.0  0.2 427182208  41424   ??  S    Sun08AM   0:02.59 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+eternum           1909   0.0  0.0 426949376   1296   ??  S    Sun08AM   0:00.21 /usr/sbin/BTLEServerAgent
+eternum           1875   0.0  0.0 411194384   5072   ??  S    Sun08AM   0:05.06 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged -x
+eternum           1873   0.0  0.0 426983712   5744   ??  S    Sun08AM   0:04.60 /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd
+eternum           1867   0.0  0.0 426983808   4608   ??  Ss   Sun08AM   0:00.44 /System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesBlastDoorService.xpc/Contents/MacOS/MessagesBlastDoorService
+eternum           1849   0.0  0.0 426949456   1328   ??  S    Sun08AM   0:00.08 /System/Library/PrivateFrameworks/CoreThreadCommissionerService.framework/CoreThreadCommissionerServiced
+eternum           1840   0.0  0.1 426991104  16032   ??  S    Sun08AM   0:58.52 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+eternum           1804   0.0  0.2 427062768  28848   ??  S    Sun08AM   0:06.62 /usr/libexec/naturallanguaged
+eternum           1781   0.0  0.0 426954000    256   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1780   0.0  0.0 427012512   3504   ??  S    Sun08AM   0:00.52 /System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/Versions/A/intelligencecontextd
+_modelmanagerd    1777   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.10 /usr/sbin/distnoted agent
+_modelmanagerd    1776   0.0  0.0 427035776     16   ??  Ss   Sun08AM   0:00.23 /System/Library/ExtensionKit/Extensions/TGOnDeviceInferenceProviderService.appex/Contents/MacOS/TGOnDeviceInferenceProviderService
+eternum           1775   0.0  0.0 426953712    256   ??  Ss   Sun08AM   0:00.08 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1774   0.0  0.0 426984848    544   ??  S    Sun08AM   0:01.19 /System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd
+eternum           1773   0.0  0.1 427207424  16336   ??  Ss   Sun08AM   0:24.78 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+eternum           1731   0.0  0.0 426984176   3120   ??  S    Sun08AM   0:00.20 /System/Library/PrivateFrameworks/WeatherDaemon.framework/weatherd
+root              1719   0.0  0.0 426950048   2624   ??  Ss   Sun08AM   0:00.11 /System/Library/PrivateFrameworks/PerfPowerServicesReader.framework/Versions/A/XPCServices/PerfPowerTelemetryReaderService.xpc/Contents/MacOS/PerfPowerTelemetryReaderService
+eternum           1705   0.0  0.1 427004592  14816   ??  S    Sun08AM   0:03.20 /usr/libexec/tipsd
+eternum           1687   0.0  0.1 427011904  21696   ??  S    Sun08AM   0:11.88 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+eternum           1684   0.0  0.0 426957808   2848   ??  Ss   Sun08AM   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1685   0.0  0.0 426957808   2848   ??  Ss   Sun08AM   0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1683   0.0  0.0 410327296     16   ??  Ss   Sun08AM   0:00.04 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           1682   0.0  0.0 426962416   1360   ??  Ss   Sun08AM   0:04.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1681   0.0  0.0 411146880    336   ??  Ss   Sun08AM   0:00.10 /System/Library/PrivateFrameworks/StreamingZip.framework/Versions/A/XPCServices/com.apple.StreamingUnzipService.xpc/Contents/MacOS/com.apple.StreamingUnzipService
+eternum           1677   0.0  0.0 426997184   5568   ??  Ss   Sun08AM   0:00.34 /System/Library/ExtensionKit/Extensions/PackageThumbnailExtension.appex/Contents/MacOS/PackageThumbnailExtension
+eternum           1676   0.0  0.1 426961184   8496   ??  Ss   Sun08AM   0:01.27 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           1674   0.0  0.0 426949840    240   ??  S    Sun08AM   0:00.12 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+_reportsystemmemory  1671   0.0  0.0 426982848   1792   ??  Ss   Sun08AM   0:00.05 /System/Library/CoreServices/ReportSystemMemory
+eternum           1670   0.0  0.1 427003312  24592   ??  S    Sun08AM   0:08.10 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+eternum           1669   0.0  0.0 426949008   3792   ??  S    Sun08AM   0:00.16 /usr/libexec/findmydevice-user-agent
+eternum           1668   0.0  0.0 426983968   3568   ??  S    Sun08AM   0:06.75 /System/Library/CoreServices/lockoutagent
+eternum           1667   0.0  0.0 426949904    272   ??  S    Sun08AM   0:00.04 /System/Library/Frameworks/FamilyControls.framework/Versions/A/FamilyControlsAgent
+eternum           1665   0.0  0.0 411263616   5120   ??  Ss   Sun08AM   0:00.53 /System/Library/PrivateFrameworks/StocksKit.framework/XPCServices/StocksKitService.xpc/Contents/MacOS/StocksKitService
+eternum           1664   0.0  0.0 426983792   3904   ??  S    Sun08AM   0:03.23 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/XPCServices/XProtectPluginService.xpc/Contents/MacOS/XProtectPluginService
+eternum           1649   0.0  0.0 426986448   4400   ??  S    Sun08AM   0:00.99 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+eternum           1659   0.0  0.1 426990208   9312   ??  S    Sun08AM   0:00.94 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+eternum           1657   0.0  0.1 411087680  24352   ??  Ss   Sun08AM   0:03.14 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+eternum           1648   0.0  0.0 426983088   2576   ??  S    Sun08AM   0:00.96 /System/Library/Image Capture/Support/icdd
+eternum           1654   0.0  0.0 426949072   3856   ??  S    Sun08AM   0:00.07 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+eternum           1645   0.0  0.0 412174592   5280   ??  S    Sun08AM   0:00.25 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+eternum           1651   0.0  0.1 412130016  12656   ??  S    Sun08AM   0:02.21 /System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent
+eternum           1640   0.0  0.0 426994832   2976   ??  S    Sun08AM   0:00.26 /System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd
+eternum           1638   0.0  0.0 426902352   6112   ??  Ss   Sun08AM   0:01.46 /System/Library/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+eternum           1634   0.0  0.1 412528288  13168   ??  S    Sun08AM   0:01.91 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+eternum           1633   0.0  0.2 412668336  31600   ??  S    Sun08AM   0:29.63 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+eternum           1632   0.0  0.0 411707520   7248   ??  S    Sun08AM   0:00.76 /System/Library/PrivateFrameworks/SkyLight.framework//Versions/A/Resources/AquaAppearanceHelper.app/Contents/MacOS/AquaAppearanceHelper
+eternum           1631   0.0  0.0 426982640   2016   ??  S    Sun08AM   0:00.11 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent
+eternum           1622   0.0  0.0 427005520   5040   ??  Ss   Sun08AM   0:07.01 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/Versions/A/XPCServices/com.apple.siri.embeddedspeech.xpc/Contents/MacOS/com.apple.siri.embeddedspeech
+_nsurlsessiond    1619   0.0  0.0 412269088   1920   ??  Ss   Sun08AM   0:37.70 /System/Library/PrivateFrameworks/StreamingExtractor.framework/Versions/A/XPCServices/STExtractionService.privileged.xpc/Contents/MacOS/STExtractionService.privileged
+eternum           1613   0.0  0.1 426990032  12000   ??  S    Sun08AM   0:02.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+eternum           1612   0.0  0.0 426982736   4640   ??  S    Sun08AM   0:00.12 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+eternum           1610   0.0  0.1 426994624  18448   ??  S    Sun08AM   0:21.88 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service
+eternum           1609   0.0  0.0 426949808    240   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/Versions/A/XPCServices/com.apple.siri.embeddedspeech.xpc/Contents/MacOS/com.apple.siri.embeddedspeech
+root              1606   0.0  0.0 426950464   1072   ??  Ss   Sun08AM   0:00.10 /usr/libexec/ASPCarryLog
+eternum           1602   0.0  0.1 426993904  17984   ??  S    Sun08AM   0:05.97 /System/Library/PrivateFrameworks/HearingCore.framework/heard
+eternum           1596   0.0  0.0 411690240   7280   ??  S    Sun08AM   0:00.77 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+eternum           1595   0.0  0.0 426949504   2368   ??  S    Sun08AM   0:00.11 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+eternum           1584   0.0  0.1 427088576  22512   ??  S    Sun08AM   0:03.33 /usr/libexec/gamed
+eternum           1572   0.0  0.1 426990224   9584   ??  S    Sun08AM   0:01.53 /System/Library/CoreServices/UserPictureSyncAgent
+eternum           1566   0.0  0.0 426945536     16   ??  S    Sun08AM   0:00.03 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/fudHelperAgent
+eternum           1563   0.0  0.3 427287744  45072   ??  Ss   Sun08AM   0:19.42 /System/Applications/Weather.app/Contents/PlugIns/WeatherWidget.appex/Contents/MacOS/WeatherWidget
+eternum           1562   0.0  0.0 426984480   5184   ??  Ss   Sun08AM   0:03.66 /System/Library/PrivateFrameworks/iCloudDriveService.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+eternum           1561   0.0  0.0 426987648   6592   ??  S    Sun08AM   0:00.86 /System/Library/PrivateFrameworks/WatchListKit.framework/Support/watchlistd
+eternum           1560   0.0  0.1 426994016  11984   ??  S    Sun08AM   0:01.04 /System/Library/Frameworks/StoreKit.framework/Support/storekitagent
+eternum           1559   0.0  0.0 426991952   7392   ??  S    Sun08AM   0:00.51 /usr/libexec/seserviced
+eternum           1558   0.0  0.0 431386736   7696   ??  S    Sun08AM   0:02.38 /System/Library/PrivateFrameworks/AppStoreComponents.framework/Support/appstorecomponentsd
+eternum           1555   0.0  0.0 426994080   5760   ??  Ss   Sun08AM   0:02.30 /System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.iCloudDriveFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.iCloudDriveFileProvider
+eternum           1553   0.0  0.0 426985568   4288   ??  S    Sun08AM   0:00.30 /System/Library/Frameworks/ClassKit.framework/Versions/A/progressd
+eternum           1552   0.0  0.1 426990480  12704   ??  S    Sun08AM   0:29.48 /System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird
+eternum           1548   0.0  0.0 427017600   6224   ??  S    Sun08AM   0:00.82 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+eternum           1545   0.0  0.1 426988880   9984   ??  S    Sun08AM   0:00.81 /usr/libexec/adprivacyd
+eternum           1551   0.0  0.1 411229424  10048   ??  S    Sun08AM   0:01.42 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper
+eternum           1550   0.0  0.1 426989392  12016   ??  S    Sun08AM   0:02.34 /System/Library/Frameworks/FinanceKit.framework/financed
+eternum           1544   0.0  0.0 426984208   5984   ??  S    Sun08AM   0:00.41 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+eternum           1542   0.0  0.0 426984240   7456   ??  S    Sun08AM   0:00.74 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+eternum           1513   0.0  0.0 427040896   8128   ??  S    Sun08AM   0:04.20 /System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher
+eternum           1479   0.0  0.1 427021440  13408   ??  S    Sun08AM   0:02.72 /System/Library/PrivateFrameworks/NewsDaemon.framework/newsd
+eternum           1477   0.0  0.0 426996512     16   ??  Ss   Sun08AM   0:00.03 /System/Applications/VoiceMemos.app/Contents/PlugIns/VoiceMemosSettingsWidgetExtension.appex/Contents/MacOS/VoiceMemosSettingsWidgetExtension
+eternum           1476   0.0  0.0 426998736     16   ??  Ss   Sun08AM   0:00.04 /System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetIntentsExtension.appex/Contents/MacOS/ScreenTimeWidgetIntentsExtension -AppleLanguages ("en-US")
+eternum           1475   0.0  0.2 427265728  25792   ??  Ss   Sun08AM   0:01.30 /System/Applications/Stocks.app/Contents/PlugIns/StocksWidget.appex/Contents/MacOS/StocksWidget
+eternum           1474   0.0  0.0 427022320     16   ??  Ss   Sun08AM   0:00.06 /System/Applications/FindMy.app/Contents/PlugIns/FindMyWidgetItems.appex/Contents/MacOS/FindMyWidgetItems
+eternum           1473   0.0  0.0 427022672     16   ??  Ss   Sun08AM   0:00.16 /System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetExtension.appex/Contents/MacOS/ScreenTimeWidgetExtension
+eternum           1472   0.0  0.0 427029488     16   ??  Ss   Sun08AM   0:00.07 /System/Library/CoreServices/Batteries.app/Contents/PlugIns/BatteriesAvocadoWidgetExtension.appex/Contents/MacOS/BatteriesAvocadoWidgetExtension
+eternum           1470   0.0  0.0 427212800     16   ??  Ss   Sun08AM   0:00.08 /System/Applications/Home.app/Contents/PlugIns/HomeWidget.appex/Contents/MacOS/HomeWidget
+eternum           1467   0.0  0.1 427222768  22400   ??  Ss   Sun08AM   0:04.40 /System/Applications/Calendar.app/Contents/PlugIns/CalendarWidgetExtension.appex/Contents/MacOS/CalendarWidgetExtension
+eternum           1465   0.0  0.1 427037376  19408   ??  Ss   Sun08AM   0:04.05 /System/Applications/Clock.app/Contents/PlugIns/WorldClockWidget.appex/Contents/MacOS/WorldClockWidget
+eternum           1463   0.0  0.0 427047264     16   ??  Ss   Sun08AM   0:00.07 /System/Applications/Tips.app/Contents/PlugIns/TipsWidgetExtension.appex/Contents/MacOS/TipsWidgetExtension
+eternum           1461   0.0  0.1 426983808  11440   ??  S    Sun08AM   0:18.23 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+eternum           1460   0.0  0.0 427076224     48   ??  Ss   Sun08AM   0:00.10 /System/Applications/News.app/Contents/PlugIns/NewsTodayIntents.appex/Contents/MacOS/NewsTodayIntents -AppleLanguages ("en-US")
+eternum           1459   0.0  0.0 427025616     16   ??  Ss   Sun08AM   0:00.06 /System/Applications/Reminders.app/Contents/PlugIns/RemindersIntentsExtension.appex/Contents/MacOS/RemindersIntentsExtension -AppleLanguages ("en-US")
+eternum           1458   0.0  0.0 426995824     16   ??  Ss   Sun08AM   0:00.03 /System/Applications/Weather.app/Contents/PlugIns/WeatherIntents.appex/Contents/MacOS/WeatherIntents -AppleLanguages ("en-US")
+eternum           1457   0.0  0.0 426993760     16   ??  Ss   Sun08AM   0:00.01 /System/Library/PrivateFrameworks/CalendarWidget.framework/PlugIns/IntentsExtension.appex/Contents/MacOS/IntentsExtension -AppleLanguages ("en-US")
+eternum           1456   0.0  0.0 427003200     16   ??  Ss   Sun08AM   0:00.05 /System/Library/CoreServices/PeopleViewService.app/Contents/PlugIns/SelectPerson_iOS.appex/Contents/MacOS/SelectPerson_iOS -AppleLanguages ("en-US")
+eternum           1455   0.0  0.0 427018624     16   ??  Ss   Sun08AM   0:00.05 /System/Applications/Notes.app/Contents/PlugIns/com.apple.Notes.IntentsExtension.appex/Contents/MacOS/com.apple.Notes.IntentsExtension -AppleLanguages ("en-US")
+eternum           1454   0.0  0.0 427390688     16   ??  Ss   Sun08AM   0:00.34 /System/Applications/Home.app/Contents/PlugIns/HomeEnergyWidgetsExtension.appex/Contents/MacOS/HomeEnergyWidgetsExtension
+eternum           1453   0.0  0.0 427115168     32   ??  Ss   Sun08AM   0:01.90 /System/Applications/Podcasts.app/Contents/PlugIns/PodcastsWidget.appex/Contents/MacOS/PodcastsWidget
+eternum           1452   0.0  0.0 427264096     16   ??  Ss   Sun08AM   0:00.36 /System/Library/CoreServices/PeopleViewService.app/Contents/PlugIns/PeopleWidget_macOSExtension.appex/Contents/MacOS/PeopleWidget_macOSExtension
+eternum           1451   0.0  0.0 426996176     16   ??  Ss   Sun08AM   0:00.04 /System/Library/PrivateFrameworks/MobileTimer.framework/PlugIns/MobileTimerIntents.appex/Contents/MacOS/MobileTimerIntents -AppleLanguages ("en-US")
+eternum           1450   0.0  0.0 427029008     16   ??  Ss   Sun08AM   0:00.15 /System/Applications/Photos.app/Contents/PlugIns/PhotosReliveWidget.appex/Contents/MacOS/PhotosReliveWidget
+eternum           1449   0.0  1.3 428184304 214736   ??  S    Sun08AM   0:48.66 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+eternum           1448   0.0  0.0 426960544   3872   ??  Ss   Sun08AM   0:00.09 /System/Library/ExtensionKit/Extensions/BiomeSELFIngestor.appex/Contents/MacOS/BiomeSELFIngestor
+eternum           1447   0.0  0.0 426994128   3504   ??  Ss   Sun08AM   0:00.07 /System/Library/ExtensionKit/Extensions/IFTranscriptSELFIngestor.appex/Contents/MacOS/IFTranscriptSELFIngestor
+eternum           1446   0.0  0.0 426995152     16   ??  Ss   Sun08AM   0:00.05 /System/Applications/Messages.app/Contents/Extensions/MessagesActionExtension.appex/Contents/MacOS/MessagesActionExtension
+eternum           1445   0.0  0.0 426950160     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           1444   0.0  0.0 426960688   3392   ??  Ss   Sun08AM   0:00.03 /System/Library/ExtensionKit/Extensions/IFTelemetrySELFIngestor.appex/Contents/MacOS/IFTelemetrySELFIngestor
+eternum           1443   0.0  0.0 426944944   1296   ??  S    Sun08AM   0:00.04 /usr/libexec/diagnosticspushd
+eternum           1441   0.0  0.0 426994048   3536   ??  Ss   Sun08AM   0:00.06 /System/Library/ExtensionKit/Extensions/GMSSELFIngestor.appex/Contents/MacOS/GMSSELFIngestor
+eternum           1440   0.0  0.0 426950048     16   ??  Ss   Sun08AM   0:00.07 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           1439   0.0  0.0 410798400   4368   ??  Ss   Sun08AM   0:00.47 /System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/XPCServices/SAExtensionOrchestrator.xpc/Contents/MacOS/SAExtensionOrchestrator
+eternum           1438   0.0  0.0 427108080   7984   ??  S    Sun08AM   0:05.76 /System/Library/PrivateFrameworks/SiriTTSService.framework/sirittsd
+eternum           1437   0.0  0.0 426983408   5392   ??  S    Sun08AM   0:02.12 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/ModelCatalogAgent
+eternum           1436   0.0  0.0 410320128     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           1435   0.0  0.0 410659264   2432   ??  Ss   Sun08AM   0:00.53 /System/Library/PrivateFrameworks/SiriTTSService.framework/Versions/A/XPCServices/com.apple.SiriTTSService.TrialProxy.xpc/Contents/MacOS/com.apple.SiriTTSService.TrialProxy
+eternum           1434   0.0  0.0 410642880   2432   ??  Ss   Sun08AM   0:00.53 /System/Library/PrivateFrameworks/SiriTTSService.framework/Versions/A/XPCServices/com.apple.SiriTTSService.TrialProxy.xpc/Contents/MacOS/com.apple.SiriTTSService.TrialProxy
+eternum           1433   0.0  0.1 426990816   8704   ??  S    Sun08AM   0:01.10 /System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd
+eternum           1432   0.0  0.0 410753696     16   ??  Ss   Sun08AM   0:00.05 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/AUCrashHandlerService.xpc/Contents/MacOS/AUCrashHandlerService
+eternum           1431   0.0  0.0 410330368     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           1430   0.0  0.0 410339584     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           1429   0.0  0.0 410366208     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           1428   0.0  0.0 410351872     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           1427   0.0  0.0 410340608     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum           1426   0.0  0.0 34061280      4   ??  Ss   Sun08AM   0:00.07 /System/Library/PrivateFrameworks/MacinTalk.framework/Versions/A/PlugIns/WardaSynthesizer_x86_64.appex/Contents/MacOS/WardaSynthesizer_x86_64 -AppleLanguages ("en-US")
+eternum           1425   0.0  0.0 410420064     16   ??  Ss   Sun08AM   0:00.02 /System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Versions/A/PlugIns/KonaSynthesizer.appex/Contents/MacOS/KonaSynthesizer -AppleLanguages ("en-US")
+eternum           1424   0.0  0.0 410543552     16   ??  Ss   Sun08AM   0:00.05 /System/Library/PrivateFrameworks/TextToSpeechMauiSupport.framework/Versions/A/PlugIns/MauiAUSP.appex/Contents/MacOS/MauiAUSP -AppleLanguages ("en-US")
+eternum           1423   0.0  0.0 410392960     16   ??  Ss   Sun08AM   0:00.05 /System/Library/PrivateFrameworks/MacinTalk.framework/Versions/A/PlugIns/MacinTalkAUSP.appex/Contents/MacOS/MacinTalkAUSP -AppleLanguages ("en-US")
+eternum           1422   0.0  0.0 410413344     16   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/MacinTalk.framework/Versions/A/PlugIns/WardaSynthesizer_arm64.appex/Contents/MacOS/WardaSynthesizer_arm64 -AppleLanguages ("en-US")
+eternum           1421   0.0  0.0 410307376     16   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/TextToSpeech.framework/PlugIns/SiriAUSP.appex/Contents/MacOS/SiriAUSP -AppleLanguages ("en-US")
+eternum           1420   0.0  0.0 410196384    240   ??  Ss   Sun08AM   0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.ComponentTagHelper.xpc/Contents/MacOS/com.apple.audio.ComponentTagHelper
+eternum           1419   0.0  0.1 426985072   8496   ??  S    Sun08AM   0:00.34 /System/Library/PrivateFrameworks/EmailDaemon.framework/Versions/A/maild
+eternum           1417   0.0  0.1 427023952  12368   ??  S    Sun08AM   0:02.54 /System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd
+eternum           1416   0.0  0.1 426990240  16144   ??  S    Sun08AM   0:06.81 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+eternum           1413   0.0  0.0 426983664   7312   ??  S    Sun08AM   0:01.62 /usr/libexec/inputanalyticsd
+eternum           1410   0.0  0.0 426987168   6640   ??  S    Sun08AM   0:00.78 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+eternum           1409   0.0  0.0 426986368   6240   ??  S    Sun08AM   0:01.74 /System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/intelligenceplatformd
+eternum           1397   0.0  0.1 426985296   9024   ??  S    Sun08AM   0:02.04 /System/Library/CoreServices/diagnostics_agent
+eternum           1406   0.0  0.0 426989328   5088   ??  S    Sun08AM   0:00.81 /usr/libexec/dmd
+eternum           1404   0.0  0.1 426983168  11712   ??  Ss   Sun08AM   0:00.15 /System/Applications/Mail.app/Contents/PlugIns/com.apple.mail.SpotlightIndexExtension.appex/Contents/MacOS/com.apple.mail.SpotlightIndexExtension -AppleLanguages ("en-US")
+_usbmuxd          1399   0.0  0.0 426993408   1568   ??  Ss   Sun08AM   0:00.31 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+eternum           1398   0.0  0.1 427528192  20016   ??  S    Sun08AM   0:06.49 /System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+eternum           1396   0.0  0.0 426949504   1392   ??  S    Sun08AM   0:00.05 /System/Library/PrivateFrameworks/GeoServices.framework/geodMachServiceBridge
+eternum           1395   0.0  0.0 426985296     16   ??  Ss   Sun08AM   0:00.16 /System/Applications/Notes.app/Contents/PlugIns/com.apple.Notes.SpotlightIndexExtension.appex/Contents/MacOS/com.apple.Notes.SpotlightIndexExtension -AppleLanguages ("en-US")
+eternum           1393   0.0  0.1 427003152  23824   ??  S    Sun08AM   0:07.68 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+root              1392   0.0  0.0 426984896    368   ??  Ss   Sun08AM   0:23.92 /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANECompilerService.xpc/Contents/MacOS/ANECompilerService
+eternum           1391   0.0  0.1 411204944   8832   ??  Ss   Sun08AM   0:00.95 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+eternum           1389   0.0  0.1 426989408   8704   ??  S    Sun08AM   0:01.20 /usr/libexec/swtransparencyd
+eternum           1387   0.0  0.1 427160608  11600   ??  S    Sun08AM   0:01.01 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager
+eternum           1383   0.0  0.0 426953712    256   ??  Ss   Sun08AM   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1382   0.0  0.0 426898928   2464   ??  Ss   Sun08AM   0:13.42 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eternum           1381   0.0  0.0 411083072   6944   ??  Ss   Sun08AM   0:31.83 /System/Library/ExtensionKit/Extensions/WallpaperVideoExtension.appex/Contents/MacOS/WallpaperVideoExtension
+eternum           1380   0.0  0.0 426950160     16   ??  Ss   Sun08AM   0:00.01 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           1378   0.0  0.0 426982608    768   ??  S    Sun08AM   0:00.11 /System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/XPCServices/lockdownmoded
+eternum           1379   0.0  0.1 412694320  11616   ??  S    Sun08AM   0:04.46 /System/Library/CoreServices/WallpaperAgent.app/Contents/MacOS/WallpaperAgent
+eternum           1374   0.0  0.0 427013424    480   ??  Ss   Sun08AM   0:01.04 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+eternum           1371   0.0  0.1 427037152  11360   ??  S    Sun08AM   0:23.62 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+eternum           1369   0.0  0.2 412564304  25200   ??  S    Sun08AM   0:04.63 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+eternum           1367   0.0  0.0 426945552    464   ??  S    Sun08AM   0:00.02 /usr/libexec/spindump_agent
+eternum           1366   0.0  0.0 426982704     16   ??  Ss   Sun08AM   0:00.03 /System/Applications/Reminders.app/Contents/PlugIns/RemindersSpotlightIndexExtension.appex/Contents/MacOS/RemindersSpotlightIndexExtension -AppleLanguages ("en-US")
+eternum           1308   0.0  0.0 426984992   5824   ??  S    Sun08AM   0:18.07 /System/Library/PrivateFrameworks/AXAssetLoader.framework/Support/axassetsd
+eternum           1310   0.0  0.0 426994944   4784   ??  S    Sun08AM   0:01.33 /usr/libexec/MTLAssetUpgraderD
+eternum           1363   0.0  0.2 427305600  39904   ??  S    Sun08AM   1:09.96 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged -u
+eternum           1359   0.0  0.0 412184112   7632   ??  Ss   Sun08AM   0:01.65 /System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService
+root              1358   0.0  0.0 426950000    848   ??  Ss   Sun08AM   0:00.11 /usr/libexec/mmaintenanced
+eternum           1361   0.0  0.0 426997312   7520   ??  S    Sun08AM   0:00.77 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+eternum           1356   0.0  0.0 427049184     16   ??  Ss   Sun08AM   0:00.14 /System/Applications/Reminders.app/Contents/PlugIns/RemindersWidgetExtension.appex/Contents/MacOS/RemindersWidgetExtension
+eternum           1355   0.0  0.0 427021568     16   ??  Ss   Sun08AM   0:00.06 /System/Applications/FindMy.app/Contents/PlugIns/FindMyWidgetPeople.appex/Contents/MacOS/FindMyWidgetPeople
+eternum           1354   0.0  0.0 427111472     48   ??  Ss   Sun08AM   0:00.15 /System/Applications/News.app/Contents/PlugIns/NewsTag.appex/Contents/MacOS/NewsTag
+eternum           1324   0.0  0.0 426983424   4240   ??  S    Sun08AM   0:01.47 /System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService
+eternum           1335   0.0  0.0 426987968   6992   ??  S    Sun08AM   0:00.38 /usr/libexec/keyboardservicesd
+eternum           1332   0.0  0.2 427050688  36096   ??  S    Sun08AM   0:05.72 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+eternum           1327   0.0  0.1 426961296  10064   ??  Ss   Sun08AM   0:02.47 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           1326   0.0  0.0 426994688   5136   ??  S    Sun08AM   0:00.23 /System/Library/PrivateFrameworks/IntlPreferences.framework/Support/localizationswitcherd
+eternum           1325   0.0  0.0 426949520   2528   ??  S    Sun08AM   0:01.51 /usr/libexec/gamecontrolleragentd
+eternum           1323   0.0  0.0 426949536   1056   ??  S    Sun08AM   0:00.02 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+eternum           1322   0.0  0.0 426986576   1776   ??  S    Sun08AM   0:00.54 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent
+eternum           1321   0.0  0.1 426995232  17264   ??  S    Sun08AM   0:05.75 /System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd
+eternum           1320   0.0  0.1 426997504  12944   ??  S    Sun08AM   0:04.43 /usr/libexec/proactived
+eternum           1319   0.0  0.1 426991776  15712   ??  S    Sun08AM   0:07.54 /System/Library/PrivateFrameworks/People.framework/peopled
+eternum           1318   0.0  0.0 426993872     16   ??  Ss   Sun08AM   0:00.04 /System/Applications/Podcasts.app/Contents/PlugIns/com.apple.podcasts.SpotlightIndexExtension.appex/Contents/MacOS/com.apple.podcasts.SpotlightIndexExtension -AppleLanguages ("en-US")
+eternum           1316   0.0  0.0 426992928     16   ??  Ss   Sun08AM   0:00.02 /System/Applications/Books.app/Contents/PlugIns/BooksSpotlightExtension.appex/Contents/MacOS/BooksSpotlightExtension -AppleLanguages ("en-US")
+eternum           1315   0.0  0.0 426997312     16   ??  Ss   Sun08AM   0:01.84 /System/Applications/System Settings.app/Contents/PlugIns/csimporter.appex/Contents/MacOS/csimporter -AppleLanguages ("en-US")
+eternum           1313   0.0  0.0 427017872   7680   ??  S    Sun08AM   0:01.07 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Support/BackgroundTaskManagementAgent.app/Contents/MacOS/BackgroundTaskManagementAgent
+eternum           1312   0.0  0.0 410772912   1696   ??  S    Sun08AM   0:00.26 /System/Library/Frameworks/MediaExtension.framework/Versions/A/Helpers/MENotificationAgent
+eternum           1309   0.0  0.0 426994496   5360   ??  S    Sun08AM   0:00.94 /System/Library/CoreServices/pbs
+eternum           1307   0.0  0.1 426992720   9344   ??  S    Sun08AM   0:00.95 /usr/libexec/promotedcontentd
+_installcoordinationd  1306   0.0  0.0 426950544    384   ??  Ss   Sun08AM   0:00.37 /System/Library/PrivateFrameworks/InstallCoordination.framework/Support/installcoordinationd
+eternum           1305   0.0  0.0 426953712    256   ??  Ss   Sun08AM   0:03.89 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1304   0.0  0.0 426983824   3168   ??  S    Sun08AM   0:00.14 /System/Library/CoreServices/ScopedBookmarkAgent
+eternum           1303   0.0  0.1 427014080   9824   ??  S    Sun08AM   0:23.49 /System/Library/CoreServices/ReportCrash agent
+eternum           1302   0.0  0.0 426987008   6992   ??  S    Sun08AM   0:11.34 /usr/libexec/swcd
+eternum           1301   0.0  0.1 431471776  25152   ??  S    Sun08AM   0:12.41 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+eternum           1299   0.0  0.2 417669168  40096   ??  S    Sun08AM   0:02.97 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/managedcorespotlightd
+eternum           1191   0.0  0.1 426990448  11600   ??  S    Sun08AM   0:00.59 /System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd
+eternum           1297   0.0  0.1 412050336  13312   ??  Ss   Sun08AM   0:06.87 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+eternum           1295   0.0  0.0 426950048     16   ??  Ss   Sun08AM   0:00.07 /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice
+eternum           1294   0.0  0.0 426990352   7856   ??  S    Sun08AM   0:01.37 /System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd
+eternum           1293   0.0  0.3 427118496  48224   ??  S    Sun08AM   0:06.93 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+eternum           1292   0.0  0.0 426984976   7920   ??  S    Sun08AM   0:01.76 /usr/libexec/bluetoothuserd
+eternum           1291   0.0  0.1 427091360  13792   ??  S    Sun08AM   0:01.27 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+eternum           1290   0.0  0.0 410364336     16   ??  Ss   Sun08AM   0:00.01 /System/Library/PrivateFrameworks/WiFiPolicy.framework/XPCServices/WiFiCloudAssetsXPCService.xpc/Contents/MacOS/WiFiCloudAssetsXPCService
+eternum           1289   0.0  0.1 426926624  10960   ??  S    Sun08AM   0:01.10 /usr/libexec/avconferenced
+eternum           1288   0.0  0.0 426944816   3600   ??  S    Sun08AM   0:00.22 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+eternum           1287   0.0  0.1 426985744   8640   ??  S    Sun08AM   0:10.94 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+eternum           1286   0.0  0.1 427002848  20832   ??  S    Sun08AM   0:00.70 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper
+eternum           1285   0.0  0.2 427255664  40832   ??  S    Sun08AM   1:50.61 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+eternum           1227   0.0  0.5 436230176  77424   ??  S    Sun08AM   3:01.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+eternum           1284   0.0  0.0 410827440   3264   ??  Ss   Sun08AM   0:00.08 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/XPCServices/com.apple.FaceTime.FTConversationService.xpc/Contents/MacOS/com.apple.FaceTime.FTConversationService
+eternum           1282   0.0  0.1 427021488  11584   ??  S    Sun08AM   0:03.07 /System/Library/PrivateFrameworks/ContactsDonation.framework/Versions/A/Support/contactsdonationagent
+eternum           1283   0.0  0.1 426996448  14112   ??  S    Sun08AM   0:02.70 /usr/libexec/neagent
+eternum           1281   0.0  0.2 427054096  37728   ??  S    Sun08AM   0:58.66 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+eternum           1280   0.0  0.0 426988688   4528   ??  S    Sun08AM   0:00.57 /usr/libexec/milod
+eternum           1278   0.0  0.0 427085872    240   ??  S    Sun08AM   0:03.57 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker
+eternum           1277   0.0  0.1 412348192  16800   ??  S    Sun08AM   0:05.22 /System/Library/CoreServices/UIKitSystem.app/Contents/MacOS/UIKitSystem system_app_start
+eternum           1276   0.0  0.1 426989696  11856   ??  S    Sun08AM   0:01.18 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+eternum           1275   0.0  0.0 426957808   1392   ??  Ss   Sun08AM   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1274   0.0  0.0 426957808   1392   ??  Ss   Sun08AM   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1207   0.0  0.1 427222576  13248   ??  S    Sun08AM   0:37.31 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+eternum           1273   0.0  0.0 426984992   5440   ??  S    Sun08AM   0:14.27 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+eternum           1272   0.0  0.0 34101516     20   ??  Ss   Sun08AM   0:00.30 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/CarbonComponentScannerXPC.xpc/Contents/MacOS/CarbonComponentScannerXPC
+eternum           1269   0.0  0.2 427008736  27168   ??  S    Sun08AM   0:09.82 /usr/libexec/knowledge-agent
+eternum           1268   0.0  0.0 426999744   8000   ??  S    Sun08AM   0:05.37 /usr/libexec/replayd
+eternum           1267   0.0  0.0 426982976   2512   ??  S    Sun08AM   0:01.26 /System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd
+eternum           1271   0.0  0.1 427007520  18832   ??  S    Sun08AM   0:52.90 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+eternum           1270   0.0  0.0 426982784   5408   ??  S    Sun08AM   0:00.42 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+eternum           1266   0.0  0.0 426987888   5968   ??  S    Sun08AM   0:00.39 /usr/libexec/intelligentroutingd
+eternum           1265   0.0  0.1 431449952  16288   ??  S    Sun08AM   0:27.41 /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd
+eternum           1263   0.0  0.1 426985504   8656   ??  S    Sun08AM   0:29.36 /usr/libexec/ContinuityCaptureAgent server
+eternum           1261   0.0  0.6 427326624  99600   ??  S    Sun08AM   6:21.20 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+eternum           1260   0.0  0.0 426983216   6592   ??  S    Sun08AM   0:00.86 /System/Library/PrivateFrameworks/SocialLayer.framework/sociallayerd.app/Contents/MacOS/sociallayerd
+eternum           1262   0.0  0.1 427035056  21072   ??  S    Sun08AM   0:06.22 /System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd
+eternum           1259   0.0  0.1 427040832  12608   ??  S    Sun08AM   0:02.10 /System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd
+eternum           1258   0.0  0.1 426990288  15968   ??  S    Sun08AM   0:06.34 /System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd
+eternum           1254   0.0  0.1 427003760  10032   ??  S    Sun08AM   0:07.37 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+eternum           1249   0.0  0.2 427020400  29088   ??  S    Sun08AM   0:47.71 /usr/libexec/sharingd
+eternum           1253   0.0  0.0 411618640   7664   ??  S    Sun08AM   0:11.17 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+eternum           1248   0.0  0.1 426990384  13056   ??  S    Sun08AM   0:02.81 /System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent
+eternum           1250   0.0  0.4 412770992  64016   ??  S    Sun08AM   1:18.21 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+eternum           1247   0.0  0.1 426984800  11200   ??  S    Sun08AM   0:03.94 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+eternum           1246   0.0  0.1 426999104  19072   ??  S    Sun08AM   0:05.17 /System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent
+eternum           1244   0.0  0.0 426983392   6416   ??  S    Sun08AM   0:01.32 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+eternum           1243   0.0  0.2 427094928  39216   ??  S    Sun08AM   1:36.69 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+eternum           1240   0.0  0.2 427024704  29792   ??  S    Sun08AM   0:26.80 /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod
+eternum           1239   0.0  0.1 426993888   9808   ??  S    Sun08AM   0:01.24 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+eternum           1241   0.0  0.0 426961904   1328   ??  Ss   Sun08AM   0:00.48 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1242   0.0  0.0 426961904   1328   ??  Ss   Sun08AM   0:00.12 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+eternum           1231   0.0  0.1 427181584  10576   ??  S    Sun08AM   0:16.28 /System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd
+eternum           1237   0.0  0.2 427203744  35232   ??  S    Sun08AM   0:49.89 /System/Library/CoreServices/iconservicesagent
+eternum           1236   0.0  0.6 427507472  95072   ??  S    Sun08AM   4:36.38 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+eternum           1235   0.0  0.1 426994448  13040   ??  S    Sun08AM   0:08.77 cloudphotod
+eternum           1233   0.0  0.0 426984752   5312   ??  S    Sun08AM   0:00.19 /System/Library/Frameworks/ManagedSettings.framework/Versions/A/ManagedSettingsAgent
+eternum           1232   0.0  0.1 426995616   9312   ??  S    Sun08AM   0:00.98 /usr/libexec/findmylocateagent
+eternum           1230   0.0  0.4 412919744  62560   ??  S    Sun08AM   0:39.78 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+eternum           1229   0.0  0.0 426984256   6720   ??  S    Sun08AM   0:01.36 /System/Library/CoreServices/sharedfilelistd
+eternum           1228   0.0  0.1 427003024  14928   ??  S    Sun08AM   0:03.16 /System/Library/PrivateFrameworks/DoNotDisturbServer.framework/Support/donotdisturbd
+eternum           1226   0.0  0.0 427013184   7536   ??  S    Sun08AM   0:02.80 /System/Library/PrivateFrameworks/ContinuousDialogManagerService.framework/assistant_cdmd
+eternum           1225   0.0  0.0 427557088   6592   ??  S    Sun08AM   0:14.90 /System/Library/PrivateFrameworks/ReplicatorCore.framework/Support/replicatord
+eternum           1223   0.0  0.1 426984864  10384   ??  S    Sun08AM   0:23.28 /usr/libexec/triald
+eternum           1224   0.0  0.1 427012880  13712   ??  S    Sun08AM   0:06.58 /usr/libexec/icloudmailagent
+eternum           1221   0.0  0.1 426997344  14528   ??  S    Sun08AM   0:22.31 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+eternum           1220   0.0  0.0 427001200   4128   ??  S    Sun08AM   0:00.26 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+eternum           1219   0.0  0.1 411904800  19584   ??  S    Sun08AM   0:09.22 /System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/siriinferenced
+eternum           1214   0.0  0.1 427150848  14784   ??  S    Sun08AM   0:04.82 /System/Cryptexes/App/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+eternum           1216   0.0  0.2 427006992  33280   ??  S    Sun08AM   0:13.32 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+eternum           1218   0.0  0.1 426993872  17840   ??  S    Sun08AM   0:19.17 /usr/libexec/siriknowledged
+eternum           1217   0.0  0.1 426987216  10224   ??  S    Sun08AM   0:02.45 /System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent
+eternum           1211   0.0  0.1 427022800  21840   ??  S    Sun08AM   0:15.71 /usr/libexec/linkd
+eternum           1210   0.0  0.1 426984864  12848   ??  S    Sun08AM   0:05.94 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+eternum           1208   0.0  0.0 426983664   1328   ??  S    Sun08AM   0:00.26 /usr/libexec/diagnosticextensionsd
+eternum           1213   0.0  0.1 426987600  11088   ??  S    Sun08AM   0:01.58 /System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotificationAgent
+eternum           1209   0.0  0.1 426988320   9680   ??  S    Sun08AM   0:01.05 /System/Library/PrivateFrameworks/AvatarPersistence.framework/Support/avatarsd
+eternum           1206   0.0  0.1 427010208  20080   ??  S    Sun08AM   0:22.45 /usr/libexec/networkserviceproxy
+eternum           1205   0.0  0.1 426999696  20000   ??  S    Sun08AM   0:05.28 /usr/libexec/transparencyd
+eternum           1204   0.0  0.0 426949600   3168   ??  S    Sun08AM   0:14.78 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+eternum           1203   0.0  0.1 427014048  20064   ??  S    Sun08AM   0:28.61 /usr/libexec/searchpartyuseragent
+eternum           1183   0.0  0.1 427004352  21488   ??  S    Sun08AM   0:04.93 /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd
+eternum           1200   0.0  0.0 427159504   7616   ??  S    Sun08AM   0:01.03 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+eternum           1199   0.0  0.1 427000176  13376   ??  S    Sun08AM   0:31.07 /usr/libexec/secinitd
+eternum           1197   0.0  0.1 427021456  19184   ??  S    Sun08AM   0:04.99 /usr/sbin/usernoted
+eternum           1195   0.0  0.1 427010016  16224   ??  S    Sun08AM   0:44.61 /usr/libexec/nsurlsessiond
+eternum           1193   0.0  0.0 426982928   1440   ??  S    Sun08AM   0:00.09 /System/Library/CoreServices/APFSUserAgent
+eternum           1196   0.0  0.1 426994784  16336   ??  S    Sun08AM   0:27.22 /usr/libexec/rapportd
+eternum           1192   0.0  0.1 426997024  12464   ??  S    Sun08AM   0:02.47 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+eternum           1190   0.0  0.0 426982096   7136   ??  S    Sun08AM   0:07.21 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+eternum           1189   0.0  0.2 427028144  31344   ??  S    Sun08AM   0:06.53 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+eternum           1188   0.0  0.2 427020960  30032   ??  S    Sun08AM   0:30.06 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+eternum           1187   0.0  0.3 427069952  42256   ??  S    Sun08AM   0:30.66 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+eternum           1186   0.0  0.2 427132832  32624   ??  S    Sun08AM   2:14.66 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+eternum           1185   0.0  0.1 427014720  10208   ??  S    Sun08AM   0:02.06 /System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd
+eternum           1182   0.0  0.1 426996320   8992   ??  S    Sun08AM   0:01.80 /usr/libexec/pboard
+eternum           1180   0.0  0.1 426991568  13280   ??  S    Sun08AM   0:01.23 /usr/libexec/appleaccountd
+eternum           1174   0.0  0.0 426985648   8240   ??  S    Sun08AM   1:25.90 /usr/libexec/UserEventAgent (Aqua)
+eternum           1176   0.0  0.1 426987920  14384   ??  S    Sun08AM   0:03.54 /System/Library/CoreServices/audioaccessoryd
+eternum           1178   0.0  0.0 411292096   7776   ??  S    Sun08AM   0:07.90 /usr/sbin/universalaccessd launchd -s
+_securityagent    1168   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.13 /usr/sbin/distnoted agent
+eternum           1166   0.0  0.1 427020800  20832   ??  S    Sun08AM   0:35.83 /usr/libexec/secd
+root              1157   0.0  0.0 426986016   2304   ??  Ss   Sun08AM   0:00.08 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+eternum           1147   0.0  0.3 412688128  43696   ??  Ss   Sun08AM   0:47.45 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root              1136   0.0  0.0 426985168    896   ??  Ss   Sun08AM   0:00.40 /System/Library/CoreServices/ReportCrash daemon
+_audiomxd         1126   0.0  0.1 426993104  12736   ??  Ss   Sun08AM   0:14.15 /usr/libexec/audiomxd
+eternum           1121   0.0  0.1 426992016  11200   ??  S    Sun08AM   1:13.40 /usr/libexec/trustd --agent
+eternum           1119   0.0  0.0 426949488   1056   ??  S    Sun08AM   0:00.03 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/XPCServices/csnameddatad.xpc/Contents/MacOS/csnameddatad
+eternum           1118   0.0  0.1 427003136  13056   ??  S    Sun08AM   0:38.81 /usr/libexec/lsd
+eternum           1117   0.0  0.1 426994480  16800   ??  S    Sun08AM   0:04.59 /usr/libexec/pkd
+eternum           1116   0.0  0.0 426950896   6080   ??  S    Sun08AM   1:07.86 /usr/sbin/cfprefsd agent
+eternum           1115   0.0  0.1 426995872  11184   ??  SN   Sun08AM   0:17.15 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+eternum           1114   0.0  0.0 426949408   6720   ??  S    Sun08AM   0:38.52 /usr/sbin/distnoted agent
+root              1113   0.0  0.0 426983344    240   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/SharePointManagement.framework/XPCServices/SharePointManagementService.xpc/Contents/MacOS/SharePointManagementService
+root              1092   0.0  0.0 426983792   4928   ??  Ss   Sun08AM   0:00.09 /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+root              1068   0.0  0.0 426989152   4160   ??  Ss   Sun08AM   1:11.47 /System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANECompilerService.xpc/Contents/MacOS/ANECompilerService
+_rmd              1004   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.15 /usr/sbin/distnoted agent
+_rmd              1002   0.0  0.0 426984624    448   ??  Ss   Sun08AM   0:00.13 /System/Library/PrivateFrameworks/RemoteManagement.framework/remotemanagementd
+root               951   0.0  0.0 426948928   1584   ??  Ss   Sun08AM   0:00.03 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+root               917   0.0  0.0 426983008   4672   ??  Ss   Sun08AM   0:01.67 /usr/libexec/triald_system
+danpeters          914   0.0  0.0 426988064   4080   ??  S    Sun08AM   0:02.08 /System/Library/Frameworks/Contacts.framework/Support/contactsd
+_spotlight         897   0.0  0.0 426949824   2112   ??  S    Sun08AM   0:07.01 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+_spotlight         893   0.0  0.0 426987536   7792   ??  S    Sun08AM   0:00.55 /usr/libexec/trustd --agent
+drakepeters        847   0.0  0.0 426985536   2752   ??  S    Sun08AM   0:00.28 /usr/libexec/trustd --agent
+drakepeters        837   0.0  0.1 426987408   9008   ??  S    Sun08AM   0:00.75 /usr/libexec/secd
+drakepeters        838   0.0  0.0 426982096    384   ??  S    Sun08AM   0:00.24 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+drakepeters        836   0.0  0.0 426945392     16   ??  S    Sun08AM   0:00.02 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/XPCServices/csnameddatad.xpc/Contents/MacOS/csnameddatad
+drakepeters        835   0.0  0.0 426961488   5216   ??  S    Sun08AM   0:00.12 /usr/libexec/pkd
+drakepeters        833   0.0  0.0 426994464   1312   ??  S    Sun08AM   0:00.18 /usr/libexec/lsd
+drakepeters        818   0.0  0.0 426949520    848   ??  S    Sun08AM   0:00.14 /usr/sbin/cfprefsd agent
+danpeters          811   0.0  0.0 426949504   1120   ??  S    Sun08AM   0:00.03 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+drakepeters        809   0.0  0.0 426996368   3776   ??  SN   Sun08AM   0:01.15 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+root               779   0.0  0.0 410476800     16   ??  Ss   Sun08AM   0:00.04 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+_diagnosticservicesd   773   0.0  0.0 411070624   2272   ??  Ss   Sun08AM   0:00.11 /System/Library/CoreServices/diagnosticservicesd
+_assetcache        771   0.0  0.0 426985296   5040   ??  Ss   Sun08AM   0:00.58 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d
+root               770   0.0  0.0 411257872   8048   ??  Ss   Sun08AM   0:00.64 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+drakepeters        769   0.0  0.0 426949408   1232   ??  S    Sun08AM   0:01.44 /usr/sbin/distnoted agent
+root               758   0.0  0.0 426949488   1824   ??  Ss   Sun08AM   0:00.32 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+root               757   0.0  0.0 426989840   7568   ??  Ss   Sun08AM   0:14.95 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+root               756   0.0  0.0 426949488   2160   ??  Ss   Sun08AM   0:02.01 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted_helper
+root               699   0.0  0.0 411181904   2608   ??  Ss   Sun08AM   0:00.24 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XProtectBridgeService.xpc/Contents/MacOS/XProtectBridgeService
+root               698   0.0  0.0 411187744   6640   ??  Ss   Sun08AM   0:00.60 /System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService
+root               572   0.0  0.0 426983360    272   ??  Ss   Sun08AM   0:00.10 /System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd
+root               544   0.0  0.1 426983040   9456   ??  Ss   Sun08AM   0:00.15 /System/Library/CoreServices/SubmitDiagInfo server-init
+danpeters          695   0.0  0.0 426983264    240   ??  S    Sun08AM   0:00.21 /System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService
+_gamecontrollerd   690   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.16 /usr/sbin/distnoted agent
+danpeters          684   0.0  0.0 426994704   3728   ??  SN   Sun08AM   0:02.47 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+_fpsd              685   0.0  0.0 427021136   4496   ??  Ss   Sun08AM   0:01.29 /usr/libexec/fairplaydeviceidentityd
+_fpsd              683   0.0  0.1 427002256  13952   ??  Ss   Sun08AM   0:00.98 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fairplayd
+root               679   0.0  0.0 410922992     16   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/XPCServices/com.apple.AppStoreDaemon.StorePrivilegedODRService.xpc/Contents/MacOS/com.apple.AppStoreDaemon.StorePrivilegedODRService
+root               666   0.0  0.0 426949584   1984   ??  S    Sun08AM   0:02.58 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+root               665   0.0  0.0 426957216    272   ??  Ss   Sun08AM   0:00.07 /System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheTetheratorService.xpc/Contents/MacOS/AssetCacheTetheratorService
+danpeters          664   0.0  0.0 411175392   1360   ??  S    Sun08AM   0:00.47 /System/Library/PrivateFrameworks/TextInputUIMacHelper.framework/Versions/A/XPCServices/CursorUIViewService.xpc/Contents/MacOS/CursorUIViewService
+danpeters          645   0.0  0.0 426949504    240   ??  S    Sun08AM   0:00.04 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+root               644   0.0  0.0 426949968   1488   ??  Ss   Sun08AM   0:04.69 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+danpeters          637   0.0  0.0 427091200    272   ??  S    Sun08AM   0:00.09 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+_assetcache        631   0.0  0.0 426985344   1248   ??  Ss   Sun08AM   0:00.11 /usr/libexec/AssetCache/AssetCache
+_applepay          629   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.17 /usr/sbin/distnoted agent
+_applepay          628   0.0  0.0 411117552   2592   ??  Ss   Sun08AM   0:00.06 /System/Library/PrivateFrameworks/NearFieldPrivateServices.framework/Versions/A/XPCServices/NFStorageServer.xpc/Contents/MacOS/NFStorageServer
+_applepay          619   0.0  0.0 426985248   8224   ??  Ss   Sun08AM   0:04.01 /usr/libexec/nfcd
+_appinstalld       613   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.19 /usr/sbin/distnoted agent
+root               611   0.0  0.0 427011904   3664   ??  Ss   Sun08AM   0:01.16 /System/Library/PrivateFrameworks/MobileInstallation.framework/XPCServices/com.apple.MobileInstallationHelperService.xpc/Contents/MacOS/com.apple.MobileInstallationHelperService
+_appinstalld       609   0.0  0.0 427012080   3520   ??  Ss   Sun08AM   0:00.57 /System/Library/PrivateFrameworks/MobileInstallation.framework/Support/appinstalld
+root               607   0.0  0.0 426983344   5968   ??  Ss   Sun08AM   0:04.05 /System/Library/CoreServices/osanalyticshelper server-init
+danpeters          601   0.0  0.0 426983696    336   ??  S    Sun08AM   0:00.08 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+root               576   0.0  0.0 426965968    320   ??  Ss   Sun08AM   0:00.06 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+_oahd              570   0.0  0.0 426945568    672   ??  Ss   Sun08AM   0:00.02 /usr/libexec/rosetta/oahd
+root               564   0.0  0.1 426992000   9504   ??  Ss   Sun08AM   0:05.21 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd --system
+root               556   0.0  0.0 426990128   3968   ??  Ss   Sun08AM   0:01.93 /System/Library/PrivateFrameworks/TVIdleServices.framework/idleassetsd
+root               552   0.0  0.0 426950704    144   ??  Ss   Sun08AM   0:00.03 automountd
+root               533   0.0  0.1 427011056  15744   ??  Ss   Sun08AM   0:15.46 /usr/sbin/spindump
+_nearbyd           525   0.0  0.0 426993088   4560   ??  Ss   Sun08AM   0:21.94 /usr/libexec/nearbyd
+danpeters          522   0.0  0.0 426991072    768   ??  S    Sun08AM   0:00.32 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+root               515   0.0  0.1 426995648  10656   ??  Ss   Sun08AM   0:05.74 /usr/sbin/filecoordinationd
+root               508   0.0  0.1 426997072  12112   ??  Ss   Sun08AM   0:29.93 /usr/libexec/gamepolicyd
+_fpsd              506   0.0  0.0 426952768   3408   ??  Ss   Sun08AM   0:04.50 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+_appleevents       480   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.20 /usr/sbin/distnoted agent
+danpeters          482   0.0  0.0 426949600   1216   ??  S    Sun08AM   0:02.79 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+danpeters          475   0.0  0.0 426983952   4240   ??  S    Sun08AM   0:01.67 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+danpeters          470   0.0  0.0 426988224   7456   ??  S    Sun08AM   0:02.00 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+danpeters          469   0.0  0.0 426993200   3216   ??  S    Sun08AM   0:00.30 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+root               466   0.0  0.0 426983296    736   ??  Ss   Sun08AM   0:00.07 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+danpeters          464   0.0  0.0 410573616   1664   ??  S    Sun08AM   0:00.24 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper
+danpeters          432   0.0  0.0 426989856   3488   ??  S    Sun08AM   0:06.60 /usr/libexec/trustd --agent
+danpeters          430   0.0  0.0 427009488    240   ??  S    Sun08AM   0:02.78 /usr/libexec/secinitd
+danpeters          422   0.0  0.0 426982096    368   ??  S    Sun08AM   0:01.19 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+danpeters          421   0.0  0.0 426949488     16   ??  S    Sun08AM   0:00.01 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/XPCServices/csnameddatad.xpc/Contents/MacOS/csnameddatad
+danpeters          419   0.0  0.0 426994400   2336   ??  S    Sun08AM   0:05.09 /usr/libexec/lsd
+danpeters          416   0.0  0.0 426993312   5232   ??  S    Sun08AM   0:01.23 /usr/libexec/pkd
+root               406   0.0  0.0 426949504   1680   ??  Ss   Sun08AM   0:00.05 /System/Library/PrivateFrameworks/CoreKDL.framework/Support/corekdld
+_gamecontrollerd   403   0.0  0.0 426949776   1120   ??  Ss   Sun08AM   0:01.60 /usr/libexec/gamecontrollerd
+_applepay          404   0.0  0.0 426986512   7984   ??  Ss   Sun08AM   0:00.71 /usr/libexec/seld
+danpeters          401   0.0  0.0 426951040   1120   ??  S    Sun08AM   0:03.16 /usr/sbin/cfprefsd agent
+danpeters          399   0.0  0.0 426949408   1648   ??  S    Sun08AM   0:03.03 /usr/sbin/distnoted agent
+root               400   0.0  0.0 426949008    336   ??  Ss   Sun08AM   0:00.06 /usr/libexec/applekeystored
+root               395   0.0  0.0 426950608   1360   ??  Ss   Sun08AM   0:00.13 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+root               393   0.0  0.0 426983888    240   ??  Ss   Sun08AM   0:00.05 /System/Library/CoreServices/iconservicesagent runAsRoot
+root               392   0.0  0.1 426961888  11232   ??  Ss   Sun08AM   0:03.34 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+_captiveagent      389   0.0  0.0 426984432   1488   ??  Ss   Sun08AM   0:00.32 /usr/libexec/captiveagent
+nobody             388   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.20 /usr/sbin/distnoted agent
+nobody             387   0.0  0.0 411055504   3584   ??  Ss   Sun08AM   0:00.22 /System/Library/PrivateFrameworks/IPConfiguration.framework/Versions/A/XPCServices/IPConfigurationHelper.xpc/Contents/MacOS/IPConfigurationHelper
+root               380   0.0  0.0 426983360   2736   ??  Ss   Sun08AM   0:00.28 /usr/libexec/wifianalyticsd
+root               371   0.0  0.0 410327632     16   ??  Ss   Sun08AM   0:00.02 /System/Library/PrivateFrameworks/WiFiPolicy.framework/XPCServices/WiFiCloudAssetsXPCService.xpc/Contents/MacOS/WiFiCloudAssetsXPCService
+root               370   0.0  0.1 426989712  10496   ??  Ss   Sun08AM   0:20.05 /usr/libexec/wifip2pd
+root               369   0.0  0.0 426949472     16   ??  Ss   Sun08AM   0:00.02 /usr/libexec/fskit_helper
+_nsurlsessiond     363   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.21 /usr/sbin/distnoted agent
+_accessoryupdater   362   0.0  0.0 426949712     16   ??  Ss   Sun08AM   0:00.10 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/ThunderboltAccessoryUpdaterService.xpc/Contents/MacOS/ThunderboltAccessoryUpdaterService
+root               361   0.0  0.0 426984704   3056   ??  S    Sun08AM   0:00.69 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+root               360   0.0  0.0 426984368    240   ??  Ss   Sun08AM   0:00.64 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/A/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService
+_accessoryupdater   358   0.0  0.0 426949120     16   ??  Ss   Sun08AM   0:00.05 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceHID.xpc/Contents/MacOS/UARPUpdaterServiceHID
+_accessoryupdater   357   0.0  0.0 410752896     16   ??  Ss   Sun08AM   0:00.04 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceAFU.xpc/Contents/MacOS/UARPUpdaterServiceAFU
+_accessoryupdater   356   0.0  0.0 410655184    304   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceDFU.xpc/Contents/MacOS/UARPUpdaterServiceDFU
+_accessoryupdater   354   0.0  0.0 426982352   1536   ??  Ss   Sun08AM   0:00.10 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceLegacyAudio.xpc/Contents/MacOS/UARPUpdaterServiceLegacyAudio
+_accessoryupdater   353   0.0  0.0 411182032   5760   ??  Ss   Sun08AM   0:00.39 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceUSBPD.xpc/Contents/MacOS/UARPUpdaterServiceUSBPD
+_accessoryupdater   352   0.0  0.0 426989936   2960   ??  Ss   Sun08AM   0:00.08 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceDisplay.xpc/Contents/MacOS/UARPUpdaterServiceDisplay
+root               359   0.0  0.0 426949136   2592   ??  Ss   Sun08AM   0:07.37 /usr/libexec/sysmond
+_accessoryupdater   355   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.21 /usr/sbin/distnoted agent
+_ctkd              350   0.0  0.0 426982864   4368   ??  Ss   Sun08AM   0:00.20 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -st
+root               351   0.0  0.0 427007264   6368   ??  Ss   Sun08AM   0:01.99 /usr/sbin/systemsoundserverd
+root               345   0.0  0.0 426983776   3904   ??  Ss   Sun08AM   0:04.64 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/XPCServices/XProtectPluginService.xpc/Contents/MacOS/XProtectPluginService
+_cmiodalassistants   344   0.0  0.0 426982096    368   ??  S    Sun08AM   0:00.07 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+root               343   0.0  0.0 426949040    976   ??  Ss   Sun08AM   0:00.12 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+_cmiodalassistants   342   0.0  0.0 426985504   3472   ??  S    Sun08AM   0:00.31 /usr/libexec/trustd --agent
+root               193   0.0  0.0 426945424    544   ??  Ss   Sun08AM   0:00.07 /System/Library/CoreServices/liquiddetectiond.app/liquiddetectiond
+root               200   0.0  0.0 426948944    752   ??  Ss   Sun08AM   0:00.20 /usr/libexec/usbd
+_cmiodalassistants   341   0.0  0.0 426949472   1056   ??  S    Sun08AM   0:00.08 /usr/sbin/cfprefsd agent
+root               190   0.0  0.0 426949200   2976   ??  Ss   Sun08AM   0:01.00 /System/Library/CoreServices/TimeMachine/backupd-helper -launchd
+_cmiodalassistants   340   0.0  0.0 426984064    240   ??  S    Sun08AM   0:00.05 /usr/libexec/secinitd
+_cmiodalassistants   339   0.0  0.0 426986768   6256   ??  S    Sun08AM   0:01.39 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+root               337   0.0  0.0 426987488   6128   ??  Ss   Sun08AM   0:00.22 /usr/libexec/symptomsd-diag
+root               338   0.0  0.0 426991408   5744   ??  Ss   Sun08AM   0:02.24 /usr/libexec/rtcreportingd
+root               336   0.0  0.1 426983792   9440   ??  Ss   Sun08AM   0:00.87 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+_spotlight         335   0.0  0.0 426949408    976   ??  S    Sun08AM   0:01.20 /usr/sbin/distnoted agent
+_softwareupdate    333   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.24 /usr/sbin/distnoted agent
+_softwareupdate    330   0.0  0.1 431404096  11440   ??  Ss   Sun08AM   0:20.54 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+_driverkit         328   0.0  0.0 426851712    608   ??  Ss   Sun08AM   0:01.32 /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDDrivers 0x100000c8a com.apple.AppleUserHIDDrivers
+_driverkit         323   0.0  0.0 426851504    112   ??  Ss   Sun08AM   0:00.07 /System/Library/DriverExtensions/com.apple.DriverKit-IOUserDockChannelSerial.dext/com.apple.DriverKit-IOUserDockChannelSerial com.apple.IOUserDockChannelSerial 0x100000c84 com.apple.DriverKit-IOUserDockChannelSerial
+root               322   0.0  0.0 426951424   3440   ??  Ss   Sun08AM   0:00.10 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+root               321   0.0  0.7 437363888 117680   ??  Ss   Sun08AM   3:48.99 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+root               319   0.0  0.0 426948944     16   ??  Ss   Sun08AM   0:00.04 /usr/libexec/bootinstalld
+root               318   0.0  0.0 426984320   4288   ??  Ss   Sun08AM   0:26.36 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd
+root               317   0.0  0.1 427012448   9840   ??  Ss   Sun08AM   0:21.42 /usr/libexec/searchpartyd
+root               316   0.0  0.1 426987968   9520   ??  Ss   Sun08AM   0:01.81 /usr/libexec/mobileactivationd
+_modelmanagerd     314   0.0  0.1 427017520   8432   ??  Ss   Sun08AM   0:03.12 /usr/libexec/modelmanagerd
+_appleevents       315   0.0  0.0 426983616   5200   ??  Ss   Sun08AM   0:00.89 /System/Library/CoreServices/appleeventsd --server
+_neuralengine      310   0.0  0.0 426983616   2432   ??  Ss   Sun08AM   0:00.37 /usr/libexec/aneuserd
+root               313   0.0  0.0 410786112    464   ??  Ss   Sun08AM   0:00.07 /usr/libexec/online-auth-agent
+root               312   0.0  0.0 426982832   2000   ??  Ss   Sun08AM   0:00.08 /usr/libexec/findmybeaconingd
+root               311   0.0  0.0 426985008   5552   ??  Ss   Sun08AM   0:09.27 /usr/libexec/aned
+root               309   0.0  0.0 426984624   4368   ??  Ss   Sun08AM   0:03.08 /System/Library/CoreServices/TimeMachine/backupd
+root               308   0.0  0.0 426984224   5920   ??  Ss   Sun08AM   0:06.65 /usr/sbin/WirelessRadioManagerd
+_coreaudiod        307   0.0  0.0 426982768    304   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/AppleDeviceQuerySupport.framework/Versions/A/XPCServices/AppleDeviceQueryService.xpc/Contents/MacOS/AppleDeviceQueryService
+root               265   0.0  0.0 427005136   6768   ??  Ss   Sun08AM   0:03.07 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd -daemon
+root               306   0.0  0.0 426984272   7728   ??  Ss   Sun08AM   0:07.43 /usr/libexec/audioanalyticsd
+root               305   0.0  0.0 426948912   1632   ??  Ss   Sun08AM   0:00.06 /usr/libexec/colorsyncd
+root               304   0.0  0.0 411745248   1984   ??  Ss   Sun08AM   0:00.15 /System/Library/PrivateFrameworks/PowerLog.framework/Versions/A/XPCServices/PerfPowerTelemetryClientRegistrationService.xpc/Contents/MacOS/PerfPowerTelemetryClientRegistrationService
+root             12007   0.0  0.0 410724416   2400 s000  R+    1:56AM   0:00.00 ps aux
+_cmiodalassistants   302   0.0  0.0 426983296   2384   ??  Ss   Sun08AM   0:00.14 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/UVCAssistant.systemextension/Contents/MacOS/UVCAssistant
+_cmiodalassistants   301   0.0  0.0 426982448   2496   ??  Ss   Sun08AM   0:00.09 /usr/libexec/cameracaptured
+_cmiodalassistants   300   0.0  0.0 426988400   4880   ??  Ss   Sun08AM   0:02.57 /usr/sbin/appleh13camerad
+root               299   0.0  0.0 426983424   3904   ??  Ss   Sun08AM   0:01.02 /usr/libexec/securityd_system
+_locationd         298   0.0  0.0 426982096    368   ??  S    Sun08AM   0:00.07 /usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none
+_cmiodalassistants   289   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.25 /usr/sbin/distnoted agent
+_locationd         285   0.0  0.0 426985504   3424   ??  S    Sun08AM   0:00.31 /usr/libexec/trustd --agent
+root               271   0.0  0.0 426949456   4032   ??  Ss   Sun08AM   0:01.51 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+_locationd         261   0.0  0.0 426949472    944   ??  S    Sun08AM   0:00.07 /usr/sbin/cfprefsd agent
+root               262   0.0  0.0 426983456   2320   ??  Ss   Sun08AM   0:01.57 /usr/sbin/mDNSResponderHelper
+root               257   0.0  0.0 410235344     16   ??  Ss   Sun08AM   0:00.01 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+root               241   0.0  0.0 426948992    240   ??  Ss   Sun08AM   0:00.03 /usr/libexec/colorsync.displayservices
+root               239   0.0  0.0 426949088   1568   ??  Ss   Sun08AM   0:00.17 /usr/sbin/cron
+root               238   0.0  0.0 426983680   2720   ??  Ss   Sun08AM   0:00.16 /usr/libexec/countryd
+root               237   0.0  0.0 410959072   2688   ??  Ss   Sun08AM   0:22.43 /usr/libexec/audioclocksyncd
+_coreaudiod        236   0.0  0.0 410355968     16   ??  Ss   Sun08AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+_locationd         235   0.0  0.0 426984064    240   ??  S    Sun08AM   0:00.05 /usr/libexec/secinitd
+_locationd         229   0.0  0.0 426986768   6256   ??  S    Sun08AM   0:01.44 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+_locationd         232   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.26 /usr/sbin/distnoted agent
+root               234   0.0  0.0 426949520   1152   ??  Ss   Sun08AM   0:00.07 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+root               231   0.0  0.1 426994848  12160   ??  Ss   Sun08AM   0:22.61 /usr/libexec/syspolicyd
+_coreaudiod        218   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.37 /usr/sbin/distnoted agent
+_windowserver      210   0.0  0.0 426949408   1120   ??  S    Sun08AM   0:01.33 /usr/sbin/distnoted agent
+root               198   0.0  0.0 426949408   1264   ??  S    Sun08AM   0:01.55 /usr/sbin/distnoted agent
+root               184   0.0  0.0 426949488    832   ??  S    Sun08AM   0:00.02 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/XPCServices/csnameddatad.xpc/Contents/MacOS/csnameddatad
+root               226   0.0  0.0 426984896   5328   ??  Ss   Sun08AM   0:00.23 /System/Library/Frameworks/SystemExtensions.framework/Versions/A/Helpers/sysextd
+_coreaudiod        227   0.0  0.0 410228080     16   ??  Ss   Sun08AM   0:00.01 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+root               225   0.0  0.0 426949024    640   ??  Ss   Sun08AM   0:00.03 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+root               223   0.0  0.0 426983328   4176   ??  Ss   Sun08AM   0:00.95 /usr/libexec/ApplicationFirewall/socketfilterfw
+_networkd          214   0.0  0.1 427000064  13104   ??  Ss   Sun08AM   0:43.01 /usr/libexec/symptomsd
+root               217   0.0  0.0 426990176   6240   ??  Ss   Sun08AM   0:04.73 /usr/libexec/storagekitd
+root               215   0.0  0.0 410622896     16   ??  Ss   Sun08AM   0:00.02 /usr/libexec/cryptexd
+root               213   0.0  0.0 426984032   5712   ??  Ss   Sun08AM   0:00.39 /usr/libexec/findmydeviced
+_iconservices      130   0.0  0.0 426983248   3456   ??  Ss   Sun08AM   0:00.93 /System/Library/CoreServices/iconservicesd
+_accessoryupdater   111   0.0  0.0 426985408   5488   ??  Ss   Sun08AM   0:15.06 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd 120
+_biome             206   0.0  0.1 426983424   9104   ??  Ss   Sun08AM   0:04.58 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/biomed
+root               205   0.0  0.0 426984048   2752   ??  Ss   Sun08AM   0:00.09 /usr/libexec/secinitd
+_hidd              203   0.0  0.0 426948912    608   ??  Ss   Sun08AM   0:00.05 /usr/libexec/hidd
+root               202   0.0  0.0 426983888   4736   ??  Ss   Sun08AM   0:00.40 /usr/libexec/eligibilityd
+root               201   0.0  0.0 426984448   8336   ??  Ss   Sun08AM   0:02.07 /usr/libexec/biometrickitd --launchd
+root               199   0.0  0.0 426982816   5136   ??  Ss   Sun08AM   0:00.24 /System/Library/PrivateFrameworks/SystemStatusServer.framework/Support/systemstatusd
+root               197   0.0  0.1 426996864  11344   ??  Ss   Sun08AM   0:09.08 /usr/libexec/nehelper
+root               196   0.0  0.0 426984592   7552   ??  Ss   Sun08AM   0:05.40 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+_nsurlsessiond     195   0.0  0.0 427032704   7792   ??  Ss   Sun08AM   0:04.96 /usr/libexec/nsurlsessiond --privileged
+root               194   0.0  0.0 426949040   2608   ??  Ss   Sun08AM   2:04.10 /usr/libexec/apfsd
+_locationd         148   0.0  0.1 427009408  18752   ??  Ss   Sun08AM   0:30.21 /usr/libexec/locationd
+_softwareupdate    122   0.0  0.0 426985664    896   ??  Ss   Sun08AM   0:00.28 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated
+root               191   0.0  0.0 426983392   7552   ??  Ss   Sun08AM   0:00.50 /usr/libexec/PowerUIAgent
+_analyticsd        186   0.0  0.1 426994496   9184   ??  Ss   Sun08AM   0:14.23 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+root               189   0.0  0.1 427011920  14368   ??  Ss   Sun08AM   3:44.34 /usr/libexec/mobileassetd
+root               188   0.0  0.0 426982928   3040   ??  Ss   Sun08AM   0:00.78 /usr/libexec/powerexperienced
+root               183   0.0  0.0 426983248   1984   ??  Ss   Sun08AM   0:00.06 /usr/libexec/trustdFileHelper
+_coreaudiod        182   0.0  0.1 427013040  16832   ??  Ss   Sun08AM   4:49.89 /usr/sbin/coreaudiod
+_trustd            181   0.0  0.1 426988048   9872   ??  Ss   Sun08AM   1:35.20 /usr/libexec/trustd
+root               180   0.0  0.1 426994384  13536   ??  Ss   Sun08AM   0:07.17 /usr/libexec/lsd runAsRoot
+root               179   0.0  0.1 426988992  17920   ??  Ss   Sun08AM   6:27.72 /usr/libexec/airportd
+root               178   0.0  0.0 411384080   1680   ??  Ss   Sun08AM   0:00.13 /usr/libexec/containermanagerd_system --runmode=privileged --user-container-mode=current --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+root               177   0.0  0.0 426982064   2688   ??  Ss   Sun08AM   0:01.91 /System/Library/CoreServices/coreservicesd
+root               176   0.0  0.1 426993456  13072   ??  Ss   Sun08AM   0:46.27 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+root               175   0.0  0.1 426997968  21024   ??  Ss   Sun08AM   5:09.07 /usr/libexec/runningboardd
+_distnote          154   0.0  0.0 426949408   2528   ??  Ss   Sun08AM   0:11.98 /usr/sbin/distnoted daemon
+_timed             144   0.0  0.0 426983200   3696   ??  Ss   Sun08AM   0:01.18 /usr/libexec/timed
+_corespeechd       123   0.0  0.0 410692976    304   ??  Ss   Sun08AM   0:00.03 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+root               172   0.0  0.0 426949744   4928   ??  Ss   Sun08AM   0:31.45 /usr/sbin/cfprefsd daemon
+root               171   0.0  0.1 426995392  15776   ??  Ss   Sun08AM   0:20.56 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd system
+root               115   0.0  0.0 426946000    704   ??  Ss   Sun08AM   0:00.19 /usr/libexec/IOMFB_bics_daemon
+root               109   0.0  0.1 426995056  10832   ??  Ss   Sun08AM   0:04.64 /usr/sbin/systemstats --daemon
+root               106   0.0  0.1 427000096  16720   ??  Ss   Sun08AM   0:09.89 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root               135   0.0  0.1 427016352  20160   ??  Ss   Sun08AM   5:17.18 /usr/libexec/coreduetd
+root               149   0.0  0.0 426984736   7296   ??  Ss   Sun08AM   0:06.03 /usr/libexec/nesessionmanager
+root               157   0.0  0.0 426945328    784   ??  Ss   Sun08AM   0:00.14 /usr/libexec/dirhelper
+root               102   0.0  0.0 426984032   2784   ??  Ss   Sun08AM   0:00.16 /usr/libexec/smd
+root               161   0.0  0.0 426949376   4192   ??  Ss   Sun08AM   0:00.46 /usr/libexec/usermanagerd -t 15
+root               168   0.0  0.1 427000416  12000   ??  Ss   Sun08AM   0:12.11 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/com.apple.cmio.registerassistantservice
+root               113   0.0  0.0 426944880    544   ??  Ss   Sun08AM   0:00.01 endpointsecurityd
+root               152   0.0  0.1 426991536  17280   ??  Ss   Sun08AM   5:53.61 /usr/libexec/dasd
+root               159   0.0  0.0 426984128   4048   ??  Ss   Sun08AM   0:00.24 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root               169   0.0  0.0 426949168    384   ??  Ss   Sun08AM   0:00.05 aslmanager
+root               136   0.0  0.0 426950048   1904   ??  Ss   Sun08AM   0:01.87 /usr/sbin/syslogd
+root               103   0.0  0.1 426991808   8624   ??  Ss   Sun08AM   0:07.85 /usr/libexec/UserEventAgent (System)
+root               151   0.0  0.0 426945376    176   ??  Ss   Sun08AM   0:00.04 autofsd
+root               160   0.0  0.0 426945392    208   ??  Ss   Sun08AM   0:00.02 /usr/sbin/KernelEventAgent
+root               146   0.0  0.0 426986432   6784   ??  Ss   Sun08AM   0:10.18 /usr/sbin/securityd -i
+root               129   0.0  0.2 427057024  29968   ??  Ss   Sun08AM   3:09.69 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root               142   0.0  0.1 427074176  13232   ??  Ss   Sun08AM   0:28.40 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root               139   0.0  0.0 426983248   1440   ??  Ss   Sun08AM   0:05.43 /usr/libexec/thermalmonitord
+root               125   0.0  0.0 426949568   1024   ??  Ss   Sun08AM   0:01.20 /usr/libexec/watchdogd
+root               121   0.0  0.0 426949184   4864   ??  Ss   Sun08AM   0:00.26 /usr/libexec/keybagd -t 15
+root               112   0.0  0.1 426987680   9808   ??  Ss   Sun08AM   0:58.92 /usr/libexec/configd
+root               155   0.0  0.0 426982768    688   ??  Ss   Sun08AM   0:00.11 /System/Library/PrivateFrameworks/AppleCredentialManager.framework/AppleCredentialManagerDaemon
+root               119   0.0  0.0 426983104    496   ??  Ss+  Sun08AM   0:00.07 /usr/libexec/remoted
+root               114   0.0  0.1 426985120   9760   ??  Ss   Sun08AM   1:37.12 /System/Library/CoreServices/powerd.bundle/powerd
+root               167   0.0  0.0 426984032   7296   ??  Ss   Sun08AM   0:03.96 /usr/libexec/AirPlayXPCHelper
+root               165   0.0  0.0 426997792   2416   ??  Ss   Sun08AM   0:03.88 /usr/libexec/sandboxd
+root               158   0.0  0.0 426948992   3376   ??  Ss   Sun08AM   0:00.17 /System/Library/CoreServices/logind
+root               132   0.0  0.0 426982976   3680   ??  Ss   Sun08AM   0:02.89 /usr/libexec/diskarbitrationd
+root               131   0.0  0.0 426986976   1296   ??  Ss   Sun08AM   0:00.83 /usr/libexec/kernelmanagerd
+root               117   0.0  0.0 426984368   5728   ??  Ss   Sun08AM   0:00.83 /usr/libexec/amfid
+root               303   0.0  0.0 426945376    240   ??  Ss   Sun08AM   0:00.01 /System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent
+eternum          12005   0.0  0.0 410734048   2032 s000  S+    1:56AM   0:00.01 /bin/bash ./full_system_audit.sh
+eternum          12003   0.0  0.1 427002352  19568   ??  S     1:55AM   0:00.09 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+eternum          12000   0.0  0.2 427002352  26160   ??  S     1:55AM   0:00.13 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+eternum          11999   0.0  0.1 427001792  16656   ??  S     1:55AM   0:00.09 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+eternum          11998   0.0  0.2 411404288  38816   ??  S     1:55AM   0:00.06 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/AXVisualSupportAgent.app/Contents/MacOS/AXVisualSupportAgent launchd -s
+eternum          11997   0.0  0.5 1865436624  81984   ??  S     1:55AM   0:00.07 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=366 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=35531997321 --shared-files --metrics-shmem-handle=1752395122,r,15754539666673298695,5983542413151562020,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=198
+eternum          11996   0.0  0.1 427001792  23072   ??  S     1:55AM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+eternum          11995   0.0  1.0 1865457840 163808   ??  S     1:54AM   0:00.50 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=365 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=35505679497 --shared-files --metrics-shmem-handle=1752395122,r,12289204209738066404,16415058393971489316,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=198
+eternum          11993   0.0  0.7 1867157168 121440   ??  S     1:54AM   0:00.21 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --extension-process --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=364 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=35480519759 --shared-files --metrics-shmem-handle=1752395122,r,17292692494715360083,4063583472269076020,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=200
+eternum          11989   0.0  0.3 499008784  45088   ??  Ss    1:53AM   0:00.04 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum          11988   0.0  0.2 427002352  26048   ??  S     1:53AM   0:00.11 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+eternum          11977   0.0  0.7 499187248 109488   ??  Ss    1:51AM   0:00.26 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum          11971   0.0  0.3 499008816  44912   ??  Ss    1:50AM   0:00.03 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+eternum          11956   0.0  0.7 1867148928 118528   ??  S     1:47AM   0:00.58 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=346 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=35062345693 --shared-files --metrics-shmem-handle=1752395122,r,12917460660022761556,8311950466293773476,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=154
+root             11895   0.0  0.1 427000912  14176   ??  Ss    1:43AM   0:00.18 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool
+eternum          11887   0.0  0.1 427012592  16784   ??  S     1:42AM   0:00.18 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool
+eternum          11867   0.0  0.0 410476800   6256   ??  Ss    1:42AM   0:00.05 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+eternum          11864   0.0  0.1 431479168  23696   ??  Ss    1:42AM   0:00.14 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU
+eternum          11860   0.0  0.3 431426800  48544   ??  Ss    1:42AM   0:00.23 /System/Library/ExtensionKit/Extensions/WebThumbnailExtension.appex/Contents/MacOS/WebThumbnailExtension
+eternum          11857   0.0  0.1 426995504  13488   ??  Ss    1:42AM   0:00.14 /System/Library/ExtensionKit/Extensions/OfficeThumbnailExtension.appex/Contents/MacOS/OfficeThumbnailExtension
+eternum          11837   0.0  1.0 1865446336 168896   ??  S     1:40AM   0:01.50 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=326 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=34620349358 --shared-files --metrics-shmem-handle=1752395122,r,7485412245963606123,2499557754923516164,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=156
+eternum          11835   0.0  2.5 1865593440 413168   ??  S     1:40AM   0:31.24 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.169/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=324 --time-ticks-at-unix-epoch=-1753742400893001 --launch-time-ticks=34615825626 --shared-files --metrics-shmem-handle=1752395122,r,9752643781967302994,6289038197535736008,2097152 --field-trial-handle=1718379636,r,17781616799921676714,11141916363710924729,262144 --variations-seed-version=20250728-050045.273000 --seatbelt-client=130
+eternum          11784   0.0  0.1 426997104  12032   ??  Ss    1:32AM   0:00.34 /System/Library/Frameworks/NetworkExtension.framework/PlugIns/NEIKEv2Provider.appex/Contents/MacOS/NEIKEv2Provider -AppleLanguages ("en-US")
+eternum          11770   0.0  0.2 427042496  31376   ??  Ss    1:32AM   0:00.30 /System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper
+eternum          11460   0.0  0.0 411068688   3968 s000  S     1:31AM   0:00.08 -zsh
+
+🟣 OPEN NETWORK PORTS:
+rapportd   1196 eternum   12u  IPv4 0x461a32dd1e58da1d      0t0  TCP *:58039 (LISTEN)
+rapportd   1196 eternum   13u  IPv6 0xa46ce84c892a9507      0t0  TCP *:58039 (LISTEN)
+
+🔵 DNS SETTINGS:
+DNS configuration
+
+resolver #1
+  nameserver[0] : 10.1.0.1
+  if_index : 24 (ipsec0)
+  flags    : Request A records
+  reach    : 0x00000002 (Reachable)
+
+resolver #2
+  domain   : local
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300000
+
+resolver #3
+  domain   : 254.169.in-addr.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300200
+
+resolver #4
+  domain   : 8.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300400
+
+resolver #5
+  domain   : 9.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300600
+
+resolver #6
+  domain   : a.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 300800
+
+resolver #7
+  domain   : b.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+  reach    : 0x00000000 (Not Reachable)
+  order    : 301000
+
+DNS configuration (for scoped queries)
+
+resolver #1
+  search domain[0] : lan
+  nameserver[0] : 2603:8000:3a3d:988c::1
+  nameserver[1] : 192.168.1.1
+  if_index : 14 (en0)
+  flags    : Scoped, Request A records, Request AAAA records
+  reach    : 0x00020002 (Reachable,Directly Reachable Address)
+
+resolver #2
+  nameserver[0] : 10.1.0.1
+  if_index : 24 (ipsec0)
+  flags    : Scoped, Request A records
+  reach    : 0x00000002 (Reachable)
+
+⚪️ HOSTS FILE CONTENT:
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+🟠 LOGIN ITEMS & DAEMONS:
+com.google.GoogleUpdater.wake.plist
+com.google.keystone.agent.plist
+com.google.keystone.xpcservice.plist
+com.google.keystone.agent.plist
+com.google.keystone.xpcservice.plist
+com.google.GoogleUpdater.wake.system.plist
+com.google.keystone.daemon.plist
+us.zoom.ZoomDaemon.plist
+
+🟤 SHELL ENVIRONMENT & ALIASES:
+NVM_INC=/Users/eternum/.nvm/versions/node/v22.17.1/include/node
+TERM_PROGRAM=Apple_Terminal
+NVM_CD_FLAGS=-q
+SHELL=/bin/zsh
+TERM=xterm-256color
+TMPDIR=/var/folders/2b/g150t6rn60d48zrr4nsdhtg80000gr/T/
+TERM_PROGRAM_VERSION=455.1
+TERM_SESSION_ID=8863FDB6-0A2B-4449-B409-0890E05B836E
+NVM_DIR=/Users/eternum/.nvm
+USER=eternum
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.zsrUPelffn/Listeners
+PATH=/Users/eternum/.nvm/versions/node/v22.17.1/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+__CFBundleIdentifier=com.apple.Terminal
+PWD=/Users/eternum/eternum/system_scan
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=2
+HOME=/Users/eternum
+LOGNAME=eternum
+NVM_BIN=/Users/eternum/.nvm/versions/node/v22.17.1/bin
+_=/usr/bin/env
+
+🔴 CRONTAB JOBS:
+*/15 * * * * node $HOME/eternum/firebase-sync/sync_beacon_to_firebase.js
+
+⚫️ HIDDEN APPS & SHELL BINDINGS:
+/Users/eternum/.DS_Store
+/Users/eternum/Desktop/.DS_Store
+/Users/eternum/Applications/.DS_Store
+/Users/eternum/Applications/Chrome Apps.localized/.DS_Store
+
+🧿 RECENT OUTBOUND CONNECTIONS:
+tcp4       0      0  10.1.47.252.58452      142.250.179.142.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58451      142.250.179.142.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58449      35.158.146.172.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58447      172.217.23.193.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58446      172.217.23.193.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58443      142.250.179.161.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58431      142.251.39.97.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.58428      142.250.179.129.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58411      142.251.36.33.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.58406      172.66.155.116.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58405      104.16.175.226.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58404      142.251.39.106.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58394      185.199.108.133.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58393      142.250.179.170.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58390      142.250.179.170.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58385      142.251.39.106.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58369      142.250.179.206.443    ESTABLISHED
+tcp4       0      0  10.1.47.252.58367      216.239.34.36.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.58361      142.251.36.5.443       ESTABLISHED
+tcp4       0      0  10.1.47.252.58354      172.64.149.196.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58352      172.64.146.146.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58350      172.64.152.241.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58340      172.64.146.146.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58339      172.64.146.146.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.58334      142.251.36.14.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.58329      142.251.36.35.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.58316      17.57.156.39.993       ESTABLISHED
+tcp4       0      0  10.1.47.252.58315      17.57.156.39.993       ESTABLISHED
+tcp4       0      0  10.1.47.252.58162      142.250.102.188.5228   ESTABLISHED
+tcp6       0      0  fe80::50a7:c7f2:.1027  fe80::6fc:689a:c.1025  ESTABLISHED
+tcp6       0      0  fe80::50a7:c7f2:.1024  fe80::6fc:689a:c.1024  ESTABLISHED
+tcp4       0     31  10.1.47.252.57670      17.248.236.67.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.57669      17.248.236.67.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.57668      17.248.236.65.443      ESTABLISHED
+tcp4       0      0  10.1.47.252.57657      104.18.39.85.443       ESTABLISHED
+tcp4       0      0  10.1.47.252.57655      104.18.32.47.443       ESTABLISHED
+tcp4       0     80  10.1.47.252.57535      95.101.136.223.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.57533      108.156.60.128.443     ESTABLISHED
+tcp4       0      0  10.1.47.252.57517      17.188.185.132.5223    ESTABLISHED
+tcp6       0      0  2603:8000:3a3d:9.64535 2600:1406:6c00::.443   ESTABLISHED
+tcp6       0      0  2603:8000:3a3d:9.63430 2606:4700:4400::.443   ESTABLISHED
+
+🌐 BROWSER EXTENSIONS:
+/Users/eternum/Library/Application Support/Google/Chrome/Default/Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn
+/Users/eternum/Library/Application Support/Google/Chrome/Default/Extensions/hnfanknocfeofbddgcijnmhnfnkdnaad
+/Users/eternum/Library/Application Support/Google/Chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda
+
+✅ AUDIT COMPLETE — Tue Jul 29 01:56:13 PDT 2025
