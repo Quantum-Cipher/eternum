@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+dir="${1:-.}"
+cd "$dir"
+# Prefer opening the package directly in Xcode; generate xcodeproj only if you must.
+if command -v swift >/dev/null 2>&1; then
+  # Deprecated but still available in many setups:
+  if swift package --help | grep -q generate-xcodeproj; then
+    swift package generate-xcodeproj
+    echo "[et-xcgen] Generated .xcodeproj for this package."
+  else
+    echo "[et-xcgen] 'generate-xcodeproj' unavailable. Open the package directly in Xcode instead."
+  fi
+else
+  echo "[et-xcgen] Swift toolchain not found."
+  exit 1
+fi

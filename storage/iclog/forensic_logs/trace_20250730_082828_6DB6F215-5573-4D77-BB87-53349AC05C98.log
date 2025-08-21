@@ -1,0 +1,52 @@
+🔍 Starting forensic UUID trace for: 6DB6F215-5573-4D77-BB87-53349AC05C98
+📅 Timestamp: Wed Jul 30 08:28:28 PDT 2025
+📂 Scanning: /Users/eternum/Library
+
+🌐 Spotlight matches:
+/Users/eternum/Downloads/bdc41d294eb6aca5835cb3323be1ca60c8521b8c4599edefecb7164df5aeee24-2025-07-15-00-19-59-d754db0f7adf4e3ea3119e261b67aff3.pdf
+/Users/eternum/eternum/storage/iclog/trails/eternum_cloudtrail_2025-07-15.bplist
+/Users/eternum/eternum/storage/iclog/trails/eternum_cloudtrail_UUID_6DB6F215.log
+
+📁 Deep grep matches:
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.apple.iwork.numbers.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.apple.textedit.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.microsoft.vscode.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.apple.dt.xcode.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.apple.quicktimeplayerx.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.RecentDocuments.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.FavoriteVolumes.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.RecentApplications.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.FavoriteItems.sfl3
+/Users/eternum/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.iCloudItems.sfl3
+/Users/eternum/Library/Preferences/com.apple.appkit.xpc.openAndSavePanelService.plist
+/Users/eternum/Library/Preferences/com.apple.systempreferences.plist
+/Users/eternum/Library/Preferences/com.apple.dock.plist
+/Users/eternum/Library/Preferences/com.openai.chat.plist
+/Users/eternum/Library/Preferences/com.apple.TV.plist
+/Users/eternum/Library/Preferences/com.microsoft.VSCode.plist
+/Users/eternum/Library/Preferences/com.google.Chrome.plist
+/Users/eternum/Library/Preferences/com.apple.dt.Xcode.plist
+/Users/eternum/Library/Preferences/com.apple.LaunchServices/com.apple.LaunchServices.plist
+/Users/eternum/Library/Preferences/com.apple.Passwords.plist
+/Users/eternum/Library/Preferences/com.apple.finder.plist
+/Users/eternum/Library/Mobile Documents/com~apple~CloudDocs/Genesis_Vault.369235567
+/Users/eternum/Library/Mobile Documents/.Trash/bdc41d294eb6aca5835cb3323be1ca60c8521b8c4599edefecb7164df5aeee24-2025-07-15-00-19-59-d754db0f7adf4e3ea3119e261b67aff3 8.04.29 AM
+/Users/eternum/Library/Mobile Documents/.Trash/bdc41d294eb6aca5835cb3323be1ca60c8521b8c4599edefecb7164df5aeee24-2025-07-15-00-19-59-d754db0f7adf4e3ea3119e261b67aff3 2
+/Users/eternum/Library/Mobile Documents/.Trash/bdc41d294eb6aca5835cb3323be1ca60c8521b8c4599edefecb7164df5aeee24-2025-07-15-00-19-59-d754db0f7adf4e3ea3119e261b67aff3
+/Users/eternum/Library/Containers/com.trendmicro.DrUnzip/Data/Library/Preferences/com.trendmicro.DrUnzip.plist
+/Users/eternum/Library/Containers/com.trendmicro.DrUnzip/Data/tmp/UnarchiverOne/.du..pyovd7lnt3/bdc41d294eb6aca5835cb3323be1ca60c8521b8c4599edefecb7164df5aeee24-2025-07-15-00-19-59-d754db0f7adf4e3ea3119e261b67aff3.zip/bdc41d294eb6aca5835cb3323be1ca60c8521b8c4599edefecb7164df5aeee24-2025-07-15-00-19-59-d754db0f7adf4e3ea3119e261b67aff3
+/Users/eternum/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Preferences/com.apple.QuickTimePlayerX.plist
+/Users/eternum/Library/Containers/com.apple.iWork.Numbers/Data/Library/Application Support/PersistentContainers/TSAPersistentModel.db-wal
+/Users/eternum/Library/Containers/com.apple.photolibraryd/Data/Library/Preferences/com.apple.photolibraryd.plist
+/Users/eternum/Library/Containers/com.apple.Safari/Data/Library/Preferences/com.apple.Safari.plist
+/Users/eternum/Library/Containers/com.apple.TextEdit/Data/Library/Preferences/com.apple.TextEdit.plist
+/Users/eternum/Library/Caches/com.openai.chat/fsCachedData/1075097D-D95B-4A86-A2A8-683834188E4C
+/Users/eternum/Library/Caches/CloudKit/com.apple.bird/b927f0071b105395c6982e3d61d436e2fa72214e/MMCS/ClonedFiles/documentContent__BE8DC416-DD68-4870-8DD1-BA84F1175571_pkgContent_p:0
+/Users/eternum/Library/Caches/CloudKit/com.apple.bird/b927f0071b105395c6982e3d61d436e2fa72214e/MMCS/ClonedFiles/finderBookmark__4E27C58D-B535-4425-A085-FA396265BF75_bookmarkContent
+/Users/eternum/Library/Caches/CloudKit/com.apple.bird/b927f0071b105395c6982e3d61d436e2fa72214e/MMCS/ClonedFiles/finderBookmark__32344911-E143-4622-BF8D-DAA1D623891F_bookmarkContent
+/Users/eternum/Library/Caches/CloudKit/com.apple.bird/b927f0071b105395c6982e3d61d436e2fa72214e/MMCS/ClonedFiles/finderBookmark__032B0B1B-BCC0-4551-8849-2DBC2417AAA7_bookmarkContent
+/Users/eternum/Library/Caches/CloudKit/com.apple.bird/b927f0071b105395c6982e3d61d436e2fa72214e/MMCS/ClonedFiles/documentContent__83F9833A-1245-4E6F-BD93-68CD1FBC45EF_fileContent
+/Users/eternum/Library/Caches/CloudKit/com.apple.bird/b927f0071b105395c6982e3d61d436e2fa72214e/MMCS/ClonedFiles/finderBookmark__096BCAA7-B852-433E-A723-1142FB4DDD7A_bookmarkContent
+/Users/eternum/Library/Caches/CloudKit/com.apple.bird/b927f0071b105395c6982e3d61d436e2fa72214e/MMCS/ClonedFiles/finderBookmark__EEBA551B-112B-4912-ACF8-91CD53D8874C_bookmarkContent
+
+☁️ iCloud Bookmark traces:

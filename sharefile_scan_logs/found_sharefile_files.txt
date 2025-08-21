@@ -1,0 +1,5 @@
+/Users/eternum/Library/Application Support/CrashReporter/ShareFile_A124EF31-D133-56B7-8FE4-12AFDE1DCD20.plist
+/Users/eternum/Library/Preferences/com.sharefile.desktop.widget.plist
+/Users/eternum/Library/HTTPStorages/com.sharefile.desktop.widget.binarycookies
+/Users/eternum/Library/Logs/DiagnosticReports/ShareFile-2025-07-28-223031.ips
+/Users/eternum/eternum/sharefile_scan_logs/found_sharefile_files.txt

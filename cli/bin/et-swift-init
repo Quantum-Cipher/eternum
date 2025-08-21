@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+name="${1:-}"; [ -z "$name" ] && { echo "Usage: et-swift-init <Name>"; exit 1; }
+dest="$HOME/Eternum/repos/$name"
+mkdir -p "$dest"
+cd "$dest"
+swift package init --type executable >/dev/null 2>&1 || true
+
+# Ensure a simple main.swift
+mkdir -p "Sources/$name"
+cat > "Sources/$name/main.swift" <<'SWIFT'
+import Foundation
+print("Eternum Swift CLI alive → \(CommandLine.arguments.dropFirst())")
+SWIFT
+
+echo "[et-swift-init] Created → $dest"
+if command -v code >/dev/null 2>&1; then code "$dest"; else open -a "Visual Studio Code" "$dest"; fi
+echo "[et-swift-init] Build locally with: swift build -c debug"

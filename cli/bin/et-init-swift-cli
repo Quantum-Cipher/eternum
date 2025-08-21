@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+name="${1:-}"
+[ -z "$name" ] && { echo "Usage: et-init-swift-cli <Name>"; exit 1; }
+
+mkdir -p "$name"
+cd "$name"
+swift package init --type executable >/dev/null 2>&1 || true
+
+# Ensure a simple main.swift
+mkdir -p Sources/"$name"
+cat > Sources/"$name"/main.swift <<'SWIFT'
+import Foundation
+
+print("Eternum Swift CLI is alive. Args: \(CommandLine.arguments.dropFirst())")
+SWIFT
+
+echo "Created Swift CLI: $name"
+echo "Build it with:"
+echo "  (cd $name && SCHEME=\"$name\" xcbuild)"

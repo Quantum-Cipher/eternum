@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Env knobs (override at call time): SCHEME, CONFIG, DESTINATION
+SCHEME="${SCHEME:-}"
+CONFIG="${CONFIG:-Debug}"
+DESTINATION="${DESTINATION:-generic/platform=macOS}"
+
+# Try to locate a workspace or project if not passed
+WORKSPACE=""
+PROJECT=""
+for arg in "$@"; do
+  case "$arg" in
+    *.xcworkspace) WORKSPACE="$arg" ;;
+    *.xcodeproj)   PROJECT="$arg"   ;;
+  esac
+done
+
+if [ -z "$WORKSPACE" ] && [ -z "$PROJECT" ]; then
+  # Auto-detect in current dir
+  ws=( *.xcworkspace )
+  pj=( *.xcodeproj )
+  if [ -e "${ws[0]:-}" ]; then WORKSPACE="${ws[0]}"; fi
+  if [ -z "$WORKSPACE" ] && [ -e "${pj[0]:-}" ]; then PROJECT="${pj[0]}"; fi
+fi
+
+# If no scheme provided, list and exit so user can pick
+if [ -z "$SCHEME" ]; then
+  if [ -n "$WORKSPACE" ]; then
+    xcodebuild -workspace "$WORKSPACE" -list
+  elif [ -n "$PROJECT" ]; then
+    xcodebuild -project "$PROJECT" -list
+  else
+    echo "No .xcworkspace or .xcodeproj found here. Run inside a project or pass a path."
+    exit 1
+  fi
+  echo
+  echo 'Set SCHEME to build, e.g.:'
+  echo '  SCHEME="MyApp" xcbuild'
+  exit 0
+fi
+
+if [ -n "$WORKSPACE" ]; then
+  xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -configuration "$CONFIG" \
+    -destination "$DESTINATION" \
+    CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+    build
+elif [ -n "$PROJECT" ]; then
+  xcodebuild -project "$PROJECT" -scheme "$SCHEME" -configuration "$CONFIG" \
+    -destination "$DESTINATION" \
+    CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+    build
+else
+  echo "Nothing to build."
+  exit 1
+fi

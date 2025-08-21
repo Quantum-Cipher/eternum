@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+set -euo pipefail
+name="${1:-Eternum_Deck}"
+shift || true
+# Any extra args are absolute or relative folders to include
+out="$HOME/Eternum/workspaces/${name}.code-workspace"
+mkdir -p "$(dirname "$out")"
+
+# Build folder list
+folders_json=""
+if [ "$#" -gt 0 ]; then
+  for f in "$@"; do
+    ap="$(cd "$f" 2>/dev/null && pwd || echo "$f")"
+    folders_json="${folders_json}{\"path\":\"$ap\"},"
+  done
+else
+  # Default to all top-level repos
+  for d in "$HOME/Eternum/repos"/*; do
+    [ -d "$d" ] && folders_json="${folders_json}{\"path\":\"$d\"},"
+  done
+fi
+folders_json="[${folders_json%,}]"
+
+cat > "$out" <<JSON
+{
+  "folders": $folders_json,
+  "settings": {
+    "telemetry.telemetryLevel": "off",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/build": true,
+      "**/.build": true
+    },
+    "editor.tabSize": 2,
+    "editor.rulers": [100],
+    "terminal.integrated.defaultProfile.osx": "bash"
+  },
+  "extensions": {
+    "recommendations": [
+      "tamasfe.even-better-toml",
+      "ms-vscode.cpptools",
+      "rust-lang.rust-analyzer",
+      "streetsidesoftware.code-spell-checker",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "ms-vscode.vscode-typescript-next",
+      "tintinweb.solidity-visual-auditor",
+      "juanblanco.solidity",
+      "vadimcn.vscode-lldb",
+      "ms-python.python",
+      "swiftlang.swift-vscode"
+    ]
+  }
+}
+JSON
+
+echo "[et-mk-workspace] Created → $out"
+# Open it
+if command -v code >/dev/null 2>&1; then code "$out"; else open -a "Visual Studio Code" "$out"; fi

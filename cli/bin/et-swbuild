@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+dir="${1:-.}"
+cfg="${CONFIGURATION:-debug}"   # debug|release
+cd "$dir"
+swift build -c "$cfg"

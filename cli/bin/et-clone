@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+url="${1:-}"; [ -z "$url" ] && { echo "Usage: et-clone <git_url>"; exit 1; }
+base="$HOME/Eternum/repos"
+name="$(basename "${url%.git}")"
+dest="$base/$name"
+mkdir -p "$base"
+if [ -d "$dest/.git" ]; then
+  echo "[et-clone] Already exists: $dest"
+else
+  git clone --depth 1 "$url" "$dest"
+fi
+if command -v code >/dev/null 2>&1; then code "$dest"; else open -a "Visual Studio Code" "$dest"; fi
+echo "[et-clone] Ready → $dest"

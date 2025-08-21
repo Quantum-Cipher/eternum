@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "swift: build (debug)",
+      "type": "shell",
+      "command": "swift build -c debug",
+      "problemMatcher": []
+    },
+    {
+      "label": "swift: build (release)",
+      "type": "shell",
+      "command": "swift build -c release",
+      "problemMatcher": []
+    },
+    {
+      "label": "xcodebuild: macOS (no-sign)",
+      "type": "shell",
+      "command": "SCHEME=${input:scheme} xcodebuild -scheme ${input:scheme} -configuration Debug -destination generic/platform=macOS CODE_SIGNING_ALLOWED=NO build",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "scheme",
+      "type": "promptString",
+      "description": "Xcode scheme name",
+      "default": "MyApp"
+    }
+  ]
+}
